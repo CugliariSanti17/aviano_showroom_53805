@@ -26,6 +26,7 @@ body{
     }
     .offerContainer{
         .offerTitle {
+            font-size: 1rem;
             .avianoText {
                 color: rgb(255, 71, 194);
             }
@@ -96,6 +97,25 @@ body{
             &:hover{
                 color: #bbb;
             }
+        }
+    }
+
+    .nosContainer {
+        .nosH1{
+            color:rgb(255, 71, 194);
+        }
+    }
+    .ubiContainer{
+        .nosH2{
+            color:rgb(255, 71, 194);
+        }
+        .mapContainer iframe {
+            width: 700px;
+            height: 550px;
+        }
+        .localImg{
+            width: 300px;
+            height: 300px;
         }
     }
  }

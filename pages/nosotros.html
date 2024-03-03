@@ -11,7 +11,9 @@
 </head>
 
 <body>
-    <header class="header" id="#inicioNosotros">    
+    <header class="header" id="#inicioNosotros">
+        <!-- 
+
         <a href="../index.html"><img class="logoLink" src="../assets/img/aviano_logo.png" alt="logo aviano"></a>
         <nav class="nav">
             <ul class="listaNav">
@@ -22,12 +24,43 @@
                 <li class="itemsNav"><a class="linkNav" href="./contacto.html"><i class="fas fa-hands-helping"></i>Contacto</a></li>
             </ul>
         </nav>
+    --> 
+
+    <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/img/aviano_logo.png" alt="logo de aviano" class="avianoLogo">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html"><i class="fas fa-home m-2"></i>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-users m-2"></i>Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/catalogo.html"><i class="fas fa-shopping-cart m-2"></i>Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/preguntas.html"><i class="fas fa-question-circle m-2"></i>Faqqs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html"><i class="fas fa-hands-helping m-2"></i>Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="nosContainer">
+        <section class="nosContainer m-3">
              <div class="nosTitle">
-                <h1 class="nosH1">Conoce nuestras raices</h1>
+                <h1 class="nosH1 mb-3">Conoce nuestras raices</h1>
             </div>
             <div class="nosContent">
                 <p class="nosContentparrafo">El nombre Aviano Showroom proviene de Aviano, una ciudad que se encuentra en el norte de Italia. La marca comenzó el 20 de Julio de 2017, convirtiendo el garage de mi casa en un showroom. Con mucho esfuerzo y sacrificio, un 26 de Octubre de 2019 logre llegar a mi primer local ubicado en una galeria. Unos años mas tarde, tuve la oportunidad de emigrar hacia otro local de ropa mucho mas grande, donde nos ubicamos actualmente y somos muy felices de brindr nuestros servicios a los clientes. </p>
@@ -36,37 +69,37 @@
             </div>
          </section>
 
-        <section class="ubiContainer">
+        <section class="ubiContainer m-3">
             <div class="ubiTitle">
-             <h2 class="nosH2">Ubicacion</h2>
+             <h2 class="nosH2 mb-3">Ubicacion</h2>
             </div>
-            <div class="negocioContainer">
-                <div class="mapContainer">
+            <div class="negocioContainer d-flex flex-column flex-md-row justify-content-center align-items-center text-center">
+                <div class="mapContainer w-md-50">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1154332995457!2d-58.475435399999995!3d-34.677036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc94e33e4f179%3A0xc79452f796d5acca!2sMurguiondo%204188%2C%20C1439%20DF!5e0!3m2!1ses-419!2sar!4v1707598891208!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="containerLocalimg">
-                     <img src="../assets/img/imagen_local.jpg" alt="imagen del local 1" class="localImg">
-                     <img src="../assets/img/imagen_local.jpg" alt="imagen del local 2" class="localImg">
+                <div class="containerLocalimg  w-md-50 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                     <img src="../assets/img/imagen_local.jpg" alt="imagen del local 1" class="localImg m-4">
+                     <img src="../assets/img/imagen_local.jpg" alt="imagen del local 2" class="localImg m-4">
                 </div>
             </div>
         </section>     
     </main>
 
-    <footer>
-        <div class="footerText">
+    <footer class="container-fluid mt-2 p-3">
+        <div class="footerText text-center">
             <p class="footerParrafo">@Todos los derechos reservados</p>
         </div>
-        <section class="logosContainer">
+        <section class="logosContainer text-center">
             <div class="footerLogo">
                 <a href="#" id="inicioNosotros"><img src="../assets/img/aviano_logo.png" alt="logo aviano"></a>
             </div>
-            <div class="footerIcons">
-                <a href="https://www.instagram.com/avianoshowroom/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/?lang=es"><i class="fa-brands fa-tiktok"></i></a>
+            <div class="footerIcons p-2">
+                <a href="https://www.instagram.com/avianoshowroom/?hl=es-la" class="m-4"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.whatsapp.com/" class="m-4"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/?lang=es" class="m-4"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </section>
-</footer>
-<script src="../js/bootstrap.bundle.min.js"></script>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
