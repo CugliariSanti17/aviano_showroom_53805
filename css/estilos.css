@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Lora", serif;
+    color: black;
+
+    header{
+        .bgNav{
+            background-color:rgb(255, 55, 188);
+        }
+        .avianoLogo{
+            width: 350px;
+            height: 150px;
+        }
+        .nav-link{
+            font-size: 1.3rem;
+                &:hover{
+                    color:#bbb;
+                }
+        }
+    }
+    .offerContainer{
+        .offerTitle {
+            .avianoText {
+                color: rgb(255, 71, 194);
+            }
+        }
+        .offerImg {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .colaboracionContainer {
+        background-color: rgb(255, 55, 188);
+        .videoContainer iframe {
+            width: 900px;
+        }
+        .infoVideo {
+            color: rgb(250, 250, 250);
+            h2{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .linksContainer{
+        .linkCatalogo{
+            height: 350px;
+            border: 2px solid black;
+            a{
+                border: 3px solid pink;
+                background-color: rgb(255, 55, 188);
+                width: 100px;
+                height: 50px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+        .linkContacto{
+            height: 350px;
+            border: 2px solid black;
+            a{
+                border: 3px solid pink;
+                background-color: rgb(255, 55, 188);
+                width: 100px;
+                height: 50px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    footer{
+        background-color: rgb(255, 55, 188);
+        color: rgb(61, 61, 61);
+        .footerParrafo{
+            font-size: 1.2rem;
+        }
+        .footerLogo img{
+            width: 350px;
+            height: 150px;
+        }
+        .footerIcons a{
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
+            &:hover{
+                color: #bbb;
+            }
+        }
+    }
+ }

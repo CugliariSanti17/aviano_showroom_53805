@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,8 +11,10 @@
 </head>
 
 <body>
-    <header class="header" id="#inicio-index">    
-        <a href="index.html" class="padreLogo"><img class="logoLink" src="./assets/img/aviano_logo.png" alt="logo aviano"></a>
+    <header class="header" id="#inicio-index"> 
+        <!-- Header original comentado
+
+            <a href="index.html" class="padreLogo"><img class="logoLink" src="./assets/img/aviano_logo.png" alt="logo aviano"></a>
         <nav class="nav">
             <ul class="listaNav">
                 <li class="itemsNav"><a class="linkNav" href="#"><i class="fas fa-home"></i>Inicio</a></li>
@@ -21,32 +23,61 @@
                 <li class="itemsNav"><a class="linkNav" href="./pages/preguntas.html"><i class="fas fa-question-circle"></i>Faqqs</a></li>
                 <li class="itemsNav"><a class="linkNav" href="./pages/contacto.html"><i class="fas fa-hands-helping"></i>Contacto</a></li>
             </ul>
-        </nav>
-    </header>
+        </nav> 
+    -->   
+    <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/aviano_logo.png" alt="logo de aviano" class="avianoLogo">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home m-2"></i>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html"><i class="fas fa-users m-2"></i>Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/catalogo.html"><i class="fas fa-shopping-cart m-2"></i>Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/preguntas.html"><i class="fas fa-question-circle m-2"></i>Faqqs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html"><i class="fas fa-hands-helping m-2"></i>Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <main>
         <section class="offerContainer">
-            <div class="offerTitle">
+            <div class="offerTitle m-3">
                 <h1>Encontrá las mejores ofertas en <span class="avianoText">AVIANO</span></h1>
             </div>
-            <div class="prendasContainer">
-                <div class="imgContainer">
+            <div class="prendasContainer d-none d-md-flex flex-row flex-wrap justify-content-evenly align-items-center">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda1.jpg" alt="short de jean">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
-                <div class="imgContainer">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda2.jpg" alt="top evolution blanco negro y gris">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
-                <div class="imgContainer">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda3.jpg" alt="musculosa estrella blanca negra y gris">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
-                <div class="imgContainer">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda4.jpg" alt="shorts de jean">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
-                <div class="imgContainer">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda5.jpg" alt="musculosa alas blanca negra y gris">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
@@ -54,57 +85,108 @@
                     <img class="offerImg" src="./assets/img/prenda1.jpg" alt="short de jean">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
-                <div class="imgContainer">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda2.jpg" alt="top evolution blanco negro y gris">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
-                <div class="imgContainer">
+                <div class="imgContainer text-center">
                     <img class="offerImg" src="./assets/img/prenda3.jpg" alt="musculosa estrella blanca negra y gris">
                     <p class="offerParrafo">Prenda/Precio</p>
                 </div>
             </div>
         </section>
 
-        <section class="colaboracionContainer">
-            <div class="infoVideo">
-                <h2>Nueva colaboracion</h2>
+        <section class="container-sm">
+            <div id="carouselExampleIndicators" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/prenda1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/prenda3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        
+
+        <section class="colaboracionContainer container-fluid d-flex flex-column flex-md-row align-items-center justify-content-center mt-4 mb-4">
+            <div class="infoVideo text-center w-40 m-5">
+                <h2 class="m-4">Nueva colaboracion</h2>
                 <div class="infoVideoparrafo">
-                    <p>Enterate de todo lo nuevo que se viene</p>
-                    <p>¿Te lo vas a perder?</p> 
+                    <p class="m-4">Enterate de todo lo nuevo que se viene</p>
+                    <p class="m-4">¿Te lo vas a perder?</p> 
                 </div>
             </div>
-            <div class="videoContainer">
+            <div class="videoContainer m-2 p-2 w-55">
                 <iframe class="video" width="1280" height="720" src="https://www.youtube.com/embed/YBSxJQGYQAc" title="STRAIGHTWIN - STREETWEAR VIDEO CAMPAIGN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
             </div>
         </section>
         
-        <section class="linksContainer">
-            <div class="linkCatalogo">
-                <h3>Explora nuestro Catalogó</h3>
+        <section class="linksContainer container-fluid d-flex flex-column flex-md-row justify-content-center align-items-center mt-2 mb-2">
+            <div class="linkCatalogo text-center w-100 w-md-50 m-2 d-flex flex-column justify-content-center align-items-center">
+                <h3 class="m-3">Explora nuestro Catalogó</h3>
                 <p>Las mejores prendas se encuentran allí</p>
-                <a href="./pages/catalogo.html">Ver</a>
+                <a href="./pages/catalogo.html" class="p-2">Ver</a>
             </div>
 
-            <div class="linkContacto">
-                <h3>Contactanos</h3>
+            <div class="linkContacto text-center w-100 w-md-50 m-2 d-flex flex-column justify-content-center align-items-center">
+                <h3 class="m-3">Contactanos</h3>
                 <p>Escribinos y resolvemos tus dudas</p>
-                <a href="./pages/contacto.html">Ir</a>
+                <a href="./pages/contacto.html" class="p-2">Ir</a>
             </div>
         </section>  
     </main>
 
-    <footer>
-            <div class="footerText">
+    <footer class="container-fluid mt-2 p-3">
+            <div class="footerText text-center">
                 <p class="footerParrafo">@Todos los derechos reservados</p>
             </div>
-            <section class="logosContainer">
+            <section class="logosContainer text-center">
                 <div class="footerLogo">
                     <a href="#" id="inicio-index"><img src="./assets/img/aviano_logo.png" alt="logo aviano"></a>
                 </div>
-                <div class="footerIcons">
-                    <a href="https://www.instagram.com/avianoshowroom/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://www.tiktok.com/?lang=es"><i class="fa-brands fa-tiktok"></i></a>
+                <div class="footerIcons p-2">
+                    <a href="https://www.instagram.com/avianoshowroom/?hl=es-la" class="m-4"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://web.whatsapp.com/" class="m-4"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/?lang=es" class="m-4"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </section>
     </footer>
