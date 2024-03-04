@@ -93,7 +93,6 @@ body{
         .footerIcons a{
             font-size: 2rem;
             color: white;
-            text-decoration: none;
             &:hover{
                 color: #bbb;
             }
@@ -135,6 +134,33 @@ body{
         .catalogoImg {
             width: 300px;
             height: 300px;
+        }
+    }
+
+    .preguntasContainer{
+        .questionTitle{
+            color:rgb(255, 71, 194);
+        }
+        .questionAcordeon{
+            .accordion-item {
+                width: 800px;
+            }
+            .acordeonColor {
+                background-color:rgb(255, 55, 188);
+                color: white;
+            }
+        }
+        .dudasContent{
+            h2{
+                color:rgb(255, 71, 194);;
+            }
+            a{
+                color: rgb(255, 255, 255);
+                background-color:rgb(255, 55, 188);
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+            }
         }
     }
  }

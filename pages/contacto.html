@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="header" id="#inicioContacto">    
+    <header class="header" id="#inicioContacto">
+        <!--    
         <a href="../index.html"><img class="logoLink" src="../assets/img/aviano_logo.png" alt="logo aviano"></a>
         <nav class="nav">
             <ul class="listaNav">
@@ -21,6 +22,36 @@
                 <li class="itemsNav"><a class="linkNav" href="#"><i class="fas fa-hands-helping"></i>Contacto</a></li>
             </ul>
         </nav>
+        --> 
+        <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../assets/img/aviano_logo.png" alt="logo de aviano" class="avianoLogo">
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html"><i class="fas fa-home m-2"></i>Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html"><i class="fas fa-users m-2"></i>Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./catalogo.html"><i class="fas fa-shopping-cart m-2"></i>Catálogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./preguntas.html"><i class="fas fa-question-circle m-2"></i>Faqqs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fas fa-hands-helping m-2"></i>Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
@@ -43,18 +74,18 @@
         </section>  
     </main>
 
-    <footer>
-        <div class="footerText">
+    <footer class="container-fluid mt-3 p-3">
+        <div class="footerText text-center">
             <p class="footerParrafo">@Todos los derechos reservados</p>
         </div>
-        <section class="logosContainer">
+        <section class="logosContainer text-center">
             <div class="footerLogo">
                 <a href="#" id="inicioContacto"><img src="../assets/img/aviano_logo.png" alt="logo aviano"></a>
             </div>
-            <div class="footerIcons">
-                <a href="https://www.instagram.com/avianoshowroom/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/?lang=es"><i class="fa-brands fa-tiktok"></i></a>
+            <div class="footerIcons p-2">
+                <a href="https://www.instagram.com/avianoshowroom/?hl=es-la" class="m-4 text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.whatsapp.com/" class="m-4 text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/?lang=es" class="m-4 text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </section>
     </footer>
