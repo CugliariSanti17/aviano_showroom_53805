@@ -56,18 +56,18 @@
 
     <main>
         <section class="contactContainer">
-            <div class="contactTitle">
-                <h1>Contacto</h1>
+            <div class="contactTitle m-3">
+                <h1 class="mb-4">Contacto</h1>
             </div>
-            <form action="404.html" class="form" method="post">
-                <div class="inputContainer">      
-                    <input class="input" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
-                    <input class="input" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
-                    <input class="input" type="mail" name="email" id="email" placeholder="Ingrese su Email" required>
-                    <textarea name="asunto" id="asunto" cols="30" rows="10" placeholder="Asunto" required class="textArea"></textarea>
-                    <input class="input" type="submit" name="boton" id="boton">
+            <form action="404.html" class="form m-1 d-flex flex-column flex-md-row justify-content-md-between" method="post">
+                <div class="inputContainer container d-flex flex-column justify-content-evenly align-items-center m-5">      
+                    <input class="input mb-3" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                    <input class="input mb-3" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+                    <input class="input mb-3" type="mail" name="email" id="email" placeholder="Ingrese su Email" required>
+                    <textarea name="asunto" id="asunto" cols="30" rows="10" placeholder="Asunto" required class="textArea mb-3"></textarea>
+                    <input class="input mt-3" type="submit" name="boton" id="boton">
                 </div>
-                <div class="imgInputcontainer">
+                <div class="imgInputcontainer m-5">
                     <img src="https://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png" alt="logo del formulario">
                 </div>
             </form>

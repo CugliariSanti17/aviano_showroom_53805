@@ -163,5 +163,56 @@ body{
             }
         }
     }
- }
- 
+
+    .contactContainer{
+        .contactTitle h1 {
+            color:rgb(255, 71, 194);
+        }
+        .form{
+            background-color: rgb(255, 55, 188);
+            height: 90vh;
+            .inputContainer{
+                width: 60%;
+                .input{
+                    background: transparent;
+                    width: 80%;
+                    border: none;
+                    border-bottom:2px solid rgb(255, 194, 245);
+                    height: 30px;
+                    color: white;
+                    font-size: 1;
+                    &::placeholder{
+                        color: white;
+                    }
+                }
+                .textArea{
+                    width: 80%;
+                    resize: none;
+                    background: transparent;
+                    height: 200px;
+                    border: none;
+                    border-bottom:2px solid rgb(255, 194, 245);
+                    color: white;
+                    &::placeholder{
+                    color: white;
+                    }
+                }
+                .input:nth-child(5){
+                    color: white;
+                    border:2px solid rgb(255, 194, 245);
+                    background-color: rgb(255, 84, 246);
+                }
+            }
+            .imgInputcontainer{
+                border-radius: 50%;
+                background-color: rgb(255, 255, 255);
+                height: 600px;
+                width: 40%;
+             }
+             .imgInputcontainer img {
+                 width: 600px;
+                 height: 600px;
+             }
+        }
+    }
+}
