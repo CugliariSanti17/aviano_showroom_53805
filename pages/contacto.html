@@ -56,19 +56,21 @@
 
     <main>
         <section class="contactContainer">
-            <div class="contactTitle m-3">
+            <div class="contactTitle m-3 mb-5">
                 <h1 class="mb-4">Contacto</h1>
             </div>
-            <form action="404.html" class="form m-1 d-flex flex-column flex-md-row justify-content-md-between text-center" method="post">
-                <div class="inputContainer container d-flex flex-column justify-content-evenly align-items-center m-5">      
-                    <input class="input mb-3" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
-                    <input class="input mb-3" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
-                    <input class="input mb-3" type="mail" name="email" id="email" placeholder="Ingrese su Email" required>
-                    <textarea name="asunto" id="asunto" cols="30" rows="10" placeholder="Asunto" required class="textArea mb-3"></textarea>
-                    <input class="input mt-3" type="submit" name="boton" id="boton">
-                </div>
-                <div class="imgInputcontainer d-none d-md-block m-5">
+            <form action="404.html" class="form container-fluid pt-2 mb-5" method="post">
+                <div class="contactContent row h-100">
+                  <div class="inputContainer col-12 col-md-7 d-flex flex-column justify-content-evenly align-items-center">      
+                    <input class="input mb-1" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                    <input class="input mb-1" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+                    <input class="input mb-1" type="mail" name="email" id="email" placeholder="Ingrese su Email" required>
+                    <textarea name="asunto" id="asunto" cols="30" rows="10" placeholder="Asunto" required class="textArea mb-1"></textarea>
+                    <input class="input mt-1" type="submit" name="boton" id="boton">
+                  </div>
+                  <div class="imgInputcontainer d-none d-md-block col-12 col-md-5 text-center d-flex justify-content-center align-items-center">
                     <img src="https://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png" alt="logo del formulario">
+                  </div>
                 </div>
             </form>
         </section>  
