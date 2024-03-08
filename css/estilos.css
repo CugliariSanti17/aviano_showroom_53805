@@ -194,6 +194,16 @@ body{
         .catalogoImg {
             width: 350px;
             height: 350px;
+            object-fit: cover;
+        }
+    }
+    @media screen and (max-width:768px){
+        .catalogoImgcontainer{
+            .catalogoImg {
+                width: 290px;
+                height: 290px;
+                object-fit: cover;
+            }
         }
     }
 
