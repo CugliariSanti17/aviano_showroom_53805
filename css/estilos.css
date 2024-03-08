@@ -39,21 +39,37 @@ body{
 
     .colaboracionContainer {
         background-color: rgb(255, 55, 188);
-        .videoContainer iframe {
-            width: 200px;
-            height: 200px;
-        }
-        .infoVideo {
-            color: rgb(250, 250, 250);
-            h2{
-                font-size: 3rem;
-            }
-            p{
-                font-size: 1.2rem;
+        .colaboracion{
+                height: 100vh;
+            .videoContainer{
+                height: 100%;
+                iframe {
+                    height: 100%;
+                    width: 100%;
+                }
+            } 
+            .infoVideo {
+                color: rgb(250, 250, 250);
+                h2{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
             }
         }
     }
 
+    @media screen and (max-width:768px){
+        .colaboracionContainer {
+            .colaboracion{
+                height: 100vh;
+            .videoContainer{
+                height: 72%;
+                } 
+            }
+        }
+    }
     .linksContainer{
         .linkCatalogo{
             height: 350px;
