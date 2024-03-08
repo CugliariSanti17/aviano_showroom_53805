@@ -212,9 +212,6 @@ body{
             color:rgb(255, 71, 194);
         }
         .questionAcordeon{
-            .accordion-item {
-                width: 800px;
-            }
             .acordeonColor {
                 background-color:rgb(255, 55, 188);
                 color: white;
