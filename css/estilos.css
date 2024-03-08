@@ -131,13 +131,42 @@ body{
         .nosH2{
             color:rgb(255, 71, 194);
         }
-        .mapContainer iframe {
-            width: 700px;
-            height: 550px;
+        .negocioContainer{
+            height: 70vh;
+            .mapContainer{
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .containerLocalimg{
+                height: 100%;
+                .localImg{
+                width: 300px;
+                height: 300px;
+                }
+            }
         }
-        .localImg{
-            width: 300px;
-            height: 300px;
+    }
+    @media screen and (max-width:768px){
+        .ubiContainer{
+            .negocioContainer{
+                height: initial;
+                .mapContainer{
+                    height: 50%;
+                    iframe{
+                        height: 400px;
+                    }
+                }
+                .containerLocalimg{
+                    width: 100%;
+                    .localImg{
+                    margin: initial;
+                    width: 300px;
+                    height: 300px;
+                    }
+                }
+            }
         }
     }
 
