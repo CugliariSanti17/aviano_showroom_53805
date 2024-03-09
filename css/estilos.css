@@ -103,6 +103,22 @@ body{
         }
     }
 
+    .recomendacionContainer{
+        .recomendacionTitle{
+            h3{
+                color: rgb(255, 71, 194);
+            }
+            hr{
+                width: 200px;
+            }
+        }
+        .card{
+            .card-title{
+                color: rgb(255, 71, 194);
+            }
+        }
+    }
+
     footer{
         background-color: rgb(255, 55, 188);
         color: rgb(61, 61, 61);
