@@ -73,7 +73,8 @@ body{
     .linksContainer{
         .linkCatalogo{
             height: 350px;
-            border: 2px solid black;
+            background-color: rgb(253, 202, 210);
+            border: 5px solid rgb(253, 138, 199);
             a{
                 border: 3px solid pink;
                 background-color: rgb(255, 55, 188);
@@ -88,7 +89,8 @@ body{
         }
         .linkContacto{
             height: 350px;
-            border: 2px solid black;
+            background-color: rgb(253, 202, 210);
+            border: 5px solid rgb(253, 138, 199);
             a{
                 border: 3px solid pink;
                 background-color: rgb(255, 55, 188);
