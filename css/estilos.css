@@ -24,6 +24,10 @@ body{
                 }
         }
     }
+    .tituloPrincipalindex{
+        text-shadow: 7px 4px 5px rgb(255, 71, 194);
+        color: rgb(255, 0, 191);
+    }
     .offerContainer{
         .offerTitle {
             font-size: 1rem;
