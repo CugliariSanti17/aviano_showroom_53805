@@ -10,198 +10,195 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="header" id="#inicioPreguntas"> 
-        <nav class="navbar navbar-expand-lg navbar-dark bgNav">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="../assets/img/aviano_logo.png" alt="logo de aviano" class="avianoLogo">
-            </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html"><i class="fas fa-home m-2"></i>Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html"><i class="fas fa-users m-2"></i>Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./catalogo.html"><i class="fas fa-shopping-cart m-2"></i>Catálogo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><i class="fas fa-question-circle m-2"></i>Faqqs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html"><i class="fas fa-hands-helping m-2"></i>Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-
-        <section class="preguntasContainer container-fluid">
-            <div class="questionsContainer">
-              <div class="questionTitle m-3">
-                <h1 class="mb-4">Preguntas frecuentes</h1>
-              </div>
-              <div class="questionAcordeon row">
-                  <div class="accordion col-12 col-md-6" id="accordionExample">
-                      <div class="accordion-item mb-3">
-                        <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          ¿Cuáles son los días y horarios?
-                        </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Lunes a Sabado de 10:30hs a 14:00hs y de 16:30hs a 20:30hs
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                          <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              ¿Cuánto demoran los envíos?
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Los envíos demoran entre 24hs y 48hs.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                          <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              ¿Cuáles son los métodos de pago?
-                            </button>
-                          </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <img src="../assets/img/mp_icon.png" alt="Icono de Mercado Pago"> Mercado pago, <i class="fas fa-money-bill-alt"></i> Efectivo, <i class="far fa-credit-card"></i> Tarjeta - Crédito y Débito
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                ¿Con qué compañias realizan los envíos?
-                              </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Correo argentino, Buspack, Oca y Plusmar
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingFive">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                ¿Sus prendas poseen garantias?
-                              </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Si, todas nuestras prendas poseen garantía a excepción de aquellas prendas que se encuentren en oferta.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingSix">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                ¿Cuánto es el tiempo de garantía?
-                              </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  El tiempo de garantía es de 15 dias, siempre y cuando la prenda se devuelva en condiciones, con la bolsa y etiqueta puesta.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingSix">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                ¿A qué parte de Argentina realizan envíos?
-                              </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Realizamos envíos a todo el país.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingEight">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                ¿Qué hago si el producto llega defectuoso?
-                              </button>
-                            </h2>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    En el caso de que el producto llegue defectuoso, podrás comunicarte con nosotros en la parte de <a href="./contacto.html">Contacto</a> y nos encargaremos de solucionar el incoveniente.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingNine">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                ¿Cuál es el costo del envío?
-                              </button>
-                            </h2>
-                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  El costo de envío será mostrado en base al total de la compra y ubicación, en el check-out, en el momento previo a la compra. Los envíos en Argentina son gratis con compras superiores a los $60.000.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mb-3">
-                            <h2 class="accordion-header" id="headingTen">
-                              <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTem">
-                                ¿Cuál es el límite de compra?
-                              </button>
-                            </h2>
-                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  No tenemos límite de compra, el único límite es el stock de nuestra tienda online.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="dudasContainer col-12 col-md-6 mt-3 mb-4 d-flex flex-column justify-content-center align-items-center text-center">
-                      <div class="dudasContent">
-                        <h2>¿No resolvimos tu duda?</h2>
-                        <p>Si seguis con dudas, dirigite a la parte de contacto</p>
-                        <a href="./contacto.html" class=" d-inline-block text-center p-2 text-decoration-none">Ir</a>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            
-        </section>
-    </main>
-    </main>
-
-    <footer class="container-fluid mt-3 p-3">
-        <div class="footerText text-center">
-            <p class="footerParrafo">@Todos los derechos reservados</p>
+  <header class="header" id="#inicioPreguntas"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bgNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/img/aviano_logo.png" alt="logo de aviano" class="avianoLogo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"><i class="fas fa-home m-2"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html"><i class="fas fa-users m-2"></i>Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./catalogo.html"><i class="fas fa-shopping-cart m-2"></i>Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fas fa-question-circle m-2"></i>Faqqs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html"><i class="fas fa-hands-helping m-2"></i>Contacto</a>
+            </li>
+          </ul>
         </div>
-        <section class="logosContainer text-center">
-            <div class="footerLogo">
-                <a href="#" id="inicioPreguntas"><img src="../assets/img/aviano_logo.png" alt="logo aviano"></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="preguntasContainer container-fluid">
+      <div class="questionsContainer">
+        <div class="questionTitle m-3">
+          <h1 class="mb-4">Preguntas frecuentes</h1>
+        </div>
+        <div class="questionAcordeon row">
+          <div class="accordion col-12 col-md-6" id="accordionExample">
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Cuáles son los días y horarios?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lunes a Sabado de 10:30hs a 14:00hs y de 16:30hs a 20:30hs
+                </div>
+              </div>
             </div>
-            <div class="footerIcons p-2">
-                <a href="https://www.instagram.com/avianoshowroom/?hl=es-la" class="m-4 text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://web.whatsapp.com/" class="m-4 text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.tiktok.com/?lang=es" class="m-4 text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Cuánto demoran los envíos?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los envíos demoran entre 24hs y 48hs.
+                </div>
+              </div>
             </div>
-        </section>
-    </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Cuáles son los métodos de pago?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <img src="../assets/img/mp_icon.png" alt="Icono de Mercado Pago"> Mercado pago, <i class="fas fa-money-bill-alt"></i> Efectivo, <i class="far fa-credit-card"></i> Tarjeta - Crédito y Débito
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  ¿Con qué compañias realizan los envíos?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Correo argentino, Buspack, Oca y Plusmar
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  ¿Sus prendas poseen garantias?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Si, todas nuestras prendas poseen garantía a excepción de aquellas prendas que se encuentren en oferta.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  ¿Cuánto es el tiempo de garantía?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  El tiempo de garantía es de 15 dias, siempre y cuando la prenda se devuelva en condiciones, con la bolsa y etiqueta puesta.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  ¿A qué parte de Argentina realizan envíos?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Realizamos envíos a todo el país.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  ¿Qué hago si el producto llega defectuoso?
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  En el caso de que el producto llegue defectuoso, podrás comunicarte con nosotros en la parte de <a href="./contacto.html">Contacto</a> y nos encargaremos de solucionar el incoveniente.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  ¿Cuál es el costo del envío?
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  El costo de envío será mostrado en base al total de la compra y ubicación, en el check-out, en el momento previo a la compra. Los envíos en Argentina son gratis con compras superiores a los $60.000.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed acordeonColor" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTem">
+                  ¿Cuál es el límite de compra?
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  No tenemos límite de compra, el único límite es el stock de nuestra tienda online.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dudasContainer col-12 col-md-6 mt-3 mb-4 d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="dudasContent">
+              <h2>¿No resolvimos tu duda?</h2>
+              <p>Si seguis con dudas, dirigite a la parte de contacto</p>
+              <a href="./contacto.html" class=" d-inline-block text-center p-2 text-decoration-none">Ir</a>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>
+  </main>
+
+  <footer class="container-fluid mt-3 p-3">
+    <div class="footerText text-center">
+      <p class="footerParrafo">@Todos los derechos reservados</p>
+    </div>
+    <div class="logosContainer text-center">
+      <div class="footerLogo">
+        <a href="#" id="inicioPreguntas"><img src="../assets/img/aviano_logo.png" alt="logo aviano"></a>
+      </div>
+      <div class="footerIcons p-2">
+        <a href="https://www.instagram.com/avianoshowroom/?hl=es-la" class="m-4 text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://web.whatsapp.com/" class="m-4 text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/?lang=es" class="m-4 text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
