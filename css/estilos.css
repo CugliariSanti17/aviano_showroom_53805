@@ -14,7 +14,7 @@ body{
             background-color:rgb(255, 55, 188);
         }
         .avianoLogo{
-            width: 300px;
+            width: 350px;
             height: 150px;
         }
         .nav-link{
@@ -22,6 +22,14 @@ body{
                 &:hover{
                     color:#bbb;
                 }
+        }
+    }
+    @media screen and (max-width:768px){
+        header{
+            .avianoLogo{
+                width: 250px;
+                height: 150px;
+            }
         }
     }
     .tituloPrincipalindex{
