@@ -14,7 +14,7 @@ body{
             background-color:rgb(255, 55, 188);
         }
         .avianoLogo{
-            width: 350px;
+            width: 300px;
             height: 150px;
         }
         .nav-link{
@@ -75,6 +75,8 @@ body{
             height: 350px;
             background-color: rgb(253, 202, 210);
             border: 5px solid rgb(253, 138, 199);
+            width: 700px;
+            margin: 0 auto;
             a{
                 border: 3px solid pink;
                 background-color: rgb(255, 55, 188);
@@ -91,6 +93,7 @@ body{
             height: 350px;
             background-color: rgb(253, 202, 210);
             border: 5px solid rgb(253, 138, 199);
+            width: 700px;
             a{
                 border: 3px solid pink;
                 background-color: rgb(255, 55, 188);
@@ -162,6 +165,7 @@ body{
                 .localImg{
                 width: 300px;
                 height: 300px;
+                object-fit: cover;
                 }
             }
         }
@@ -180,7 +184,7 @@ body{
                     width: 100%;
                     .localImg{
                     margin: initial;
-                    width: 300px;
+                    width: 50%;
                     height: 300px;
                     }
                 }
