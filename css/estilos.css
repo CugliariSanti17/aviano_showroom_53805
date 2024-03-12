@@ -38,7 +38,6 @@ body{
     }
     .offerContainer{
         .offerTitle {
-            font-size: 1rem;
             .avianoText {
                 color: rgb(255, 71, 194);
             }
@@ -46,6 +45,15 @@ body{
         .offerImg {
             width: 350px;
             height: 350px;
+        }
+    }
+    @media screen and (max-width:768px){
+        .offerContainer{
+            .offerTitle {
+                h2{
+                    font-size: 1.5rem;
+                }
+            }
         }
     }
 
