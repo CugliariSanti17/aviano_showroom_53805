@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Lora", serif;
+    color: black;
+
+    header{
+        .bgNav{
+            background-color:rgb(255, 55, 188);
+        }
+        .avianoLogo{
+            width: 350px;
+            height: 150px;
+        }
+        .nav-link{
+            font-size: 1.3rem;
+                &:hover{
+                    color:#bbb;
+                }
+        }
+    }
+    @media screen and (max-width:768px){
+        header{
+            .avianoLogo{
+                width: 250px;
+                height: 150px;
+            }
+        }
+    }
+    .tituloPrincipalindex{
+        text-shadow: 7px 4px 5px rgb(255, 71, 194);
+        color: rgb(255, 0, 191);
+    }
+    .offerContainer{
+        .offerTitle {
+            .avianoText {
+                color: rgb(255, 71, 194);
+            }
+        }
+        .offerImg {
+            width: 350px;
+            height: 350px;
+        }
+    }
+    @media screen and (max-width:768px){
+        .offerContainer{
+            .offerTitle {
+                h2{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .colaboracionContainer {
+        background-color: rgb(255, 55, 188);
+        .colaboracion{
+                height: 100vh;
+            .videoContainer{
+                height: 100%;
+                iframe {
+                    height: 100%;
+                    width: 100%;
+                }
+            } 
+            .infoVideo {
+                color: rgb(250, 250, 250);
+                h2{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:768px){
+        .colaboracionContainer {
+            .colaboracion{
+                height: 100vh;
+            .videoContainer{
+                height: 72%;
+                } 
+            }
+        }
+    }
+    .linksContainer{
+        .linkCatalogo{
+            height: 350px;
+            background-color: rgb(253, 202, 210);
+            border: 5px solid rgb(253, 138, 199);
+            width: 700px;
+            margin: 0 auto;
+            a{
+                border: 3px solid pink;
+                background-color: rgb(255, 55, 188);
+                width: 100px;
+                height: 50px;
+                color: black;
+                text-decoration: none;
+                &:hover{
+                    background-color:rgb(251, 105, 202);;
+                }
+            }
+        }
+        .linkContacto{
+            height: 350px;
+            background-color: rgb(253, 202, 210);
+            border: 5px solid rgb(253, 138, 199);
+            width: 700px;
+            a{
+                border: 3px solid pink;
+                background-color: rgb(255, 55, 188);
+                width: 100px;
+                height: 50px;
+                color: black;
+                text-decoration: none;
+                &:hover{
+                    background-color:rgb(251, 105, 202);;
+                }
+            }
+        }
+    }
+
+    .recomendacionContainer{
+        .recomendacionTitle{
+            h3{
+                color: rgb(255, 71, 194);
+            }
+            hr{
+                width: 200px;
+            }
+        }
+        .card{
+            .card-title{
+                color: rgb(255, 71, 194);
+            }
+        }
+    }
+
+    footer{
+        background-color: rgb(255, 55, 188);
+        color: rgb(61, 61, 61);
+        .footerParrafo{
+            font-size: 1.2rem;
+        }
+        .footerLogo img{
+            width: 350px;
+            height: 150px;
+        }
+        .footerIcons a{
+            font-size: 2rem;
+            color: white;
+            &:hover{
+                color: #bbb;
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        footer{
+            .footerParrafo{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .nosContainer {
+        .nosH1{
+            color:rgb(255, 71, 194);
+        }
+    }
+    .ubiContainer{
+        .nosH2{
+            color:rgb(255, 71, 194);
+        }
+        .negocioContainer{
+            height: 70vh;
+            .mapContainer{
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .containerLocalimg{
+                height: 100%;
+                .localImg{
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        .ubiContainer{
+            .negocioContainer{
+                height: initial;
+                .mapContainer{
+                    height: 50%;
+                    iframe{
+                        height: 400px;
+                    }
+                }
+                .containerLocalimg{
+                    width: 100%;
+                    .localImg{
+                    margin: initial;
+                    width: 50%;
+                    height: 300px;
+                    }
+                }
+            }
+        }
+    }
+
+    .catalogoContainer{
+        .containerTitle h1{
+            color:rgb(255, 71, 194);
+        }
+    }
+
+    .catalogoImgcontainer{
+        .prendasCatalogo{
+            .btn-primary{
+                background-color:rgb(255, 55, 188);
+                border: rgb(255, 55, 188);;
+            }
+            .buttonColor{
+                background-color:rgb(255, 55, 188);
+                border-color: rgb(255, 55, 188);
+                &:active{
+                    background-color: rgb(253, 132, 247);
+                }
+
+            }
+        }
+        .catalogoImg {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+        }
+    }
+    @media screen and (max-width:768px){
+        .catalogoImgcontainer{
+            .catalogoImg {
+                width: 290px;
+                height: 290px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .preguntasContainer{
+        .questionTitle{
+            color:rgb(255, 71, 194);
+        }
+        .questionAcordeon{
+            .acordeonColor {
+                background-color:rgb(255, 55, 188);
+                color: white;
+            }
+        }
+        .dudasContent{
+            h2{
+                color:rgb(255, 71, 194);;
+            }
+            a{
+                color: rgb(255, 255, 255);
+                background-color:rgb(255, 55, 188);
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                &:hover{
+                    background-color:rgb(251, 105, 202);;
+                }
+            }
+        }
+    }
+
+    .contactContainer{
+        .contactTitle h1 {
+            color:rgb(255, 71, 194);
+        }
+        .form{
+            background-color: rgb(255, 55, 188);
+            height: 90vh;
+            .inputContainer{
+                .input{
+                    background: transparent;
+                    width: 80%;
+                    border: none;
+                    border-bottom:2px solid rgb(255, 194, 245);
+                    height: 30px;
+                    color: white;
+                    font-size: 1;
+                    &::placeholder{
+                        color: white;
+                    }
+                }
+                .textArea{
+                    width: 80%;
+                    resize: none;
+                    background: transparent;
+                    height: 200px;
+                    border: none;
+                    border-bottom:2px solid rgb(255, 194, 245);
+                    color: white;
+                    &::placeholder{
+                    color: white;
+                    }
+                }
+                .input:nth-child(5){
+                    color: white;
+                    border:2px solid rgb(255, 194, 245);
+                    background-color: rgb(255, 84, 246);
+                    width: 65%;
+                    &:focus{
+                        background-color: rgb(253, 132, 247);
+                    }
+                }
+            }
+            .imgInputcontainer{
+                border-radius: 50%;
+                background-color: rgb(255, 255, 255);
+                height: 600px;
+                width: 600px;
+             }
+             .imgInputcontainer img {
+                 width: 600px;
+                 height: 600px;
+             }
+        }
+    }
+}
