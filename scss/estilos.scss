@@ -1,80 +1,82 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import 'variables';
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: $t-0;
+    margin: $t-0;
 }
 
 body{
-    font-family: "Lora", serif;
-    color: black;
+    font-family: $fuente-principal;
+    color: $color-negro;
 
     header{
         .bgNav{
-            background-color:rgb(255, 55, 188);
+           background-color: $color-primario;
         }
         .avianoLogo{
-            width: 350px;
-            height: 150px;
+            width: $t-350px;
+            height:$t-150px;
         }
         .nav-link{
-            font-size: 1.3rem;
+            font-size: $fs-nav;
                 &:hover{
-                    color:#bbb;
+                    color:$color-hover-principal;
                 }
         }
     }
     @media screen and (max-width:768px){
         header{
             .avianoLogo{
-                width: 250px;
-                height: 150px;
+                width: $t-250px;
+                height: $t-150px;
             }
         }
     }
     .tituloPrincipalindex{
-        text-shadow: 7px 4px 5px rgb(255, 71, 194);
-        color: rgb(255, 0, 191);
+        text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
+        color: $color-titulo-principal;
     }
     .offerContainer{
         .offerTitle {
             .avianoText {
-                color: rgb(255, 71, 194);
+                color: $color-secundario;
             }
         }
         .offerImg {
-            width: 350px;
-            height: 350px;
+            width: $t-350px;
+            height:$t-350px;
         }
     }
     @media screen and (max-width:768px){
         .offerContainer{
             .offerTitle {
                 h2{
-                    font-size: 1.2rem;
+                    font-size: $fs-chico;
                 }
             }
         }
     }
 
     .colaboracionContainer {
-        background-color: rgb(255, 55, 188);
+        background-color: $color-primario;
         .colaboracion{
-                height: 100vh;
+                height: $t-100vh;
             .videoContainer{
-                height: 100%;
+                height: $t-100por;
                 iframe {
-                    height: 100%;
-                    width: 100%;
+                    height: $t-100por;
+                    width: $t-100por;
                 }
             } 
             .infoVideo {
-                color: rgb(250, 250, 250);
+                color: $color-blanco;
                 h2{
-                    font-size: 3rem;
+                    font-size: $fs-grande;
                 }
                 p{
-                    font-size: 1.2rem;
+                    font-size: $fs-chico;
                 }
             }
         }
@@ -83,46 +85,46 @@ body{
     @media screen and (max-width:768px){
         .colaboracionContainer {
             .colaboracion{
-                height: 100vh;
+                height: $t-100vh;
             .videoContainer{
-                height: 72%;
+                height: $t-72por;
                 } 
             }
         }
     }
     .linksContainer{
         .linkCatalogo{
-            height: 350px;
-            background-color: rgb(253, 202, 210);
-            border: 5px solid rgb(253, 138, 199);
-            width: 700px;
-            margin: 0 auto;
+            height: $t-350px;
+            background-color: $background-links;
+            border: $t-borde-5px $tipo-borde $color-terciario;
+            width: $t-700px;
+            margin: $t-0 $margin-auto;
             a{
-                border: 3px solid pink;
-                background-color: rgb(255, 55, 188);
-                width: 100px;
-                height: 50px;
-                color: black;
-                text-decoration: none;
+                border: $t-borde-3px $tipo-borde $color-borde;
+                background-color: $color-primario;
+                width: $t-100px;
+                height:$t-50px;
+                color: $color-negro;
+                text-decoration: $type-none;
                 &:hover{
-                    background-color:rgb(251, 105, 202);;
+                    background-color:$color-hover-secundario;
                 }
             }
         }
         .linkContacto{
-            height: 350px;
-            background-color: rgb(253, 202, 210);
-            border: 5px solid rgb(253, 138, 199);
-            width: 700px;
+            height:$t-350px;
+            background-color: $background-links;
+            border: $t-borde-5px $tipo-borde $color-terciario;
+            width: $t-700px;
             a{
-                border: 3px solid pink;
-                background-color: rgb(255, 55, 188);
-                width: 100px;
-                height: 50px;
-                color: black;
-                text-decoration: none;
+                border: $t-borde-3px $tipo-borde $color-borde;
+                background-color: $color-primario;
+                width: $t-100px;
+                height:$t-50px;
+                color: $color-negro;
+                text-decoration: $type-none;
                 &:hover{
-                    background-color:rgb(251, 105, 202);;
+                    background-color:$color-hover-secundario;;
                 }
             }
         }
@@ -131,68 +133,68 @@ body{
     .recomendacionContainer{
         .recomendacionTitle{
             h3{
-                color: rgb(255, 71, 194);
+                color: $color-secundario;
             }
             hr{
-                width: 200px;
+                width: $t-200px;
             }
         }
         .card{
             .card-title{
-                color: rgb(255, 71, 194);
+                color: $color-secundario;
             }
         }
     }
 
     footer{
-        background-color: rgb(255, 55, 188);
-        color: rgb(61, 61, 61);
+        background-color: $color-primario;
+        color: $color-texto-footer;
         .footerParrafo{
-            font-size: 1.2rem;
+            font-size: $fs-chico;
         }
         .footerLogo img{
-            width: 350px;
-            height: 150px;
+            width: $t-350px;
+            height:$t-150px;
         }
         .footerIcons a{
-            font-size: 2rem;
-            color: white;
+            font-size: $fs-mediano;
+            color: $color-blanco;
             &:hover{
-                color: #bbb;
+                color: $color-hover-principal;
             }
         }
     }
     @media screen and (max-width:768px){
         footer{
             .footerParrafo{
-                font-size: 1rem;
+                font-size: $fs-1;
             }
         }
     }
 
     .nosContainer {
         .nosH1{
-            color:rgb(255, 71, 194);
+            color:$color-secundario;
         }
     }
     .ubiContainer{
         .nosH2{
-            color:rgb(255, 71, 194);
+            color:$color-secundario;
         }
         .negocioContainer{
-            height: 70vh;
+            height: $t-70vh;
             .mapContainer{
                 iframe{
-                    width: 100%;
-                    height: 100%;
+                    width: $t-100por;
+                    height: $t-100por;
                 }
             }
             .containerLocalimg{
-                height: 100%;
+                height: $t-100por;
                 .localImg{
-                width: 300px;
-                height: 300px;
-                object-fit: cover;
+                width: $t-300px;
+                height: $t-300px;
+                object-fit: $object-cover;
                 }
             }
         }
@@ -202,17 +204,17 @@ body{
             .negocioContainer{
                 height: initial;
                 .mapContainer{
-                    height: 50%;
+                    height: $t-50por;
                     iframe{
-                        height: 400px;
+                        height: $t-400px;
                     }
                 }
                 .containerLocalimg{
-                    width: 100%;
+                    width: $t-100por;
                     .localImg{
                     margin: initial;
-                    width: 50%;
-                    height: 300px;
+                    width: $t-50por;
+                    height: $t-300px;
                     }
                 }
             }
@@ -221,63 +223,63 @@ body{
 
     .catalogoContainer{
         .containerTitle h1{
-            color:rgb(255, 71, 194);
+            color: $color-secundario;
         }
     }
 
     .catalogoImgcontainer{
         .prendasCatalogo{
             .btn-primary{
-                background-color:rgb(255, 55, 188);
-                border: rgb(255, 55, 188);;
+                background-color:$color-primario;
+                border: $color-primario;
             }
             .buttonColor{
-                background-color:rgb(255, 55, 188);
-                border-color: rgb(255, 55, 188);
+                background-color:$color-primario;
+                border-color:$color-primario;
                 &:active{
-                    background-color: rgb(253, 132, 247);
+                    background-color: $color-activeyfocus;
                 }
 
             }
         }
         .catalogoImg {
-            width: 350px;
-            height: 350px;
-            object-fit: cover;
+            width: $t-350px;
+            height:$t-350px;
+            object-fit: $object-cover;
         }
     }
     @media screen and (max-width:768px){
         .catalogoImgcontainer{
             .catalogoImg {
-                width: 290px;
-                height: 290px;
-                object-fit: cover;
+                width: $t-290px;
+                height: $t-290px;
+                object-fit: $object-cover;
             }
         }
     }
 
     .preguntasContainer{
         .questionTitle{
-            color:rgb(255, 71, 194);
+            color: $color-secundario;
         }
         .questionAcordeon{
             .acordeonColor {
-                background-color:rgb(255, 55, 188);
-                color: white;
+                background-color:$color-primario;
+                color: $color-blanco;
             }
         }
         .dudasContent{
             h2{
-                color:rgb(255, 71, 194);;
+                color:$color-secundario;
             }
             a{
-                color: rgb(255, 255, 255);
-                background-color:rgb(255, 55, 188);
-                border: 2px solid black;
-                width: 100px;
-                height: 50px;
+                color: $color-blanco;
+                background-color: $color-primario;
+                border: $t-borde-2px $tipo-borde $color-negro;
+                width: $t-100px;
+                height: $t-50px;
                 &:hover{
-                    background-color:rgb(251, 105, 202);;
+                    background-color:$color-hover-secundario;
                 }
             }
         }
@@ -285,55 +287,55 @@ body{
 
     .contactContainer{
         .contactTitle h1 {
-            color:rgb(255, 71, 194);
+            color:$color-secundario;
         }
         .form{
-            background-color: rgb(255, 55, 188);
-            height: 90vh;
+            background-color: $color-primario;
+            height: $t-90vh;
             .inputContainer{
                 .input{
-                    background: transparent;
-                    width: 80%;
-                    border: none;
-                    border-bottom:2px solid rgb(255, 194, 245);
-                    height: 30px;
-                    color: white;
-                    font-size: 1;
+                    background: $color-transparente;
+                    width: $t-80por;
+                    border: $type-none;
+                    border-bottom: $t-borde-2px $tipo-borde $color-borde-input;
+                    height: $t-30px;
+                    color: $color-blanco;
+                    font-size: $fs-1;
                     &::placeholder{
-                        color: white;
+                        color: $color-blanco;
                     }
                 }
                 .textArea{
-                    width: 80%;
-                    resize: none;
-                    background: transparent;
-                    height: 200px;
-                    border: none;
-                    border-bottom:2px solid rgb(255, 194, 245);
-                    color: white;
+                    width: $t-80por;
+                    resize: $type-none;
+                    background: $color-transparente;
+                    height: $t-200px;
+                    border: $type-none;
+                    border-bottom: $t-borde-2px $tipo-borde $color-borde-input;
+                    color: $color-blanco;
                     &::placeholder{
-                    color: white;
+                    color: $color-blanco;
                     }
                 }
                 .input:nth-child(5){
-                    color: white;
-                    border:2px solid rgb(255, 194, 245);
-                    background-color: rgb(255, 84, 246);
-                    width: 65%;
+                    color: $color-blanco;
+                    border:$t-borde-2px $tipo-borde $color-borde-input;
+                    background-color: $bg-input-submit;
+                    width: $t-65por;
                     &:focus{
-                        background-color: rgb(253, 132, 247);
+                        background-color: $color-activeyfocus;
                     }
                 }
             }
             .imgInputcontainer{
-                border-radius: 50%;
-                background-color: rgb(255, 255, 255);
-                height: 600px;
-                width: 600px;
+                border-radius: $t-50por;
+                background-color: $color-blanco;
+                height: $t-600px;
+                width: $t-600px;
              }
              .imgInputcontainer img {
-                 width: 600px;
-                 height: 600px;
+                 width: $t-600px;
+                 height: $t-600px;
              }
         }
     }

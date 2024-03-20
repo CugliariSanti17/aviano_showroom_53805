@@ -130,7 +130,7 @@ body footer .footerLogo img {
 }
 body footer .footerIcons a {
   font-size: 2rem;
-  color: white;
+  color: rgb(250, 250, 250);
 }
 body footer .footerIcons a:hover {
   color: #bbb;
@@ -211,13 +211,13 @@ body .preguntasContainer .questionTitle {
 }
 body .preguntasContainer .questionAcordeon .acordeonColor {
   background-color: rgb(255, 55, 188);
-  color: white;
+  color: rgb(250, 250, 250);
 }
 body .preguntasContainer .dudasContent h2 {
   color: rgb(255, 71, 194);
 }
 body .preguntasContainer .dudasContent a {
-  color: rgb(255, 255, 255);
+  color: rgb(250, 250, 250);
   background-color: rgb(255, 55, 188);
   border: 2px solid black;
   width: 100px;
@@ -239,11 +239,11 @@ body .contactContainer .form .inputContainer .input {
   border: none;
   border-bottom: 2px solid rgb(255, 194, 245);
   height: 30px;
-  color: white;
-  font-size: 1;
+  color: rgb(250, 250, 250);
+  font-size: 1rem;
 }
 body .contactContainer .form .inputContainer .input::placeholder {
-  color: white;
+  color: rgb(250, 250, 250);
 }
 body .contactContainer .form .inputContainer .textArea {
   width: 80%;
@@ -252,13 +252,13 @@ body .contactContainer .form .inputContainer .textArea {
   height: 200px;
   border: none;
   border-bottom: 2px solid rgb(255, 194, 245);
-  color: white;
+  color: rgb(250, 250, 250);
 }
 body .contactContainer .form .inputContainer .textArea::placeholder {
-  color: white;
+  color: rgb(250, 250, 250);
 }
 body .contactContainer .form .inputContainer .input:nth-child(5) {
-  color: white;
+  color: rgb(250, 250, 250);
   border: 2px solid rgb(255, 194, 245);
   background-color: rgb(255, 84, 246);
   width: 65%;
@@ -268,7 +268,7 @@ body .contactContainer .form .inputContainer .input:nth-child(5):focus {
 }
 body .contactContainer .form .imgInputcontainer {
   border-radius: 50%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(250, 250, 250);
   height: 600px;
   width: 600px;
 }
