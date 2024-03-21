@@ -1,0 +1,54 @@
+.contactContainer{
+    .contactTitle h1 {
+        color:$color-secundario;
+    }
+    .form{
+        background-color: $color-primario;
+        height: $t-90vh;
+        .inputContainer{
+            .input{
+                background: $color-transparente;
+                width: $t-80por;
+                border: $type-none;
+                border-bottom: $t-borde-2px $tipo-borde $color-borde-input;
+                height: $t-30px;
+                color: $color-blanco;
+                font-size: $fs-1;
+                &::placeholder{
+                    color: $color-blanco;
+                }
+            }
+            .textArea{
+                width: $t-80por;
+                resize: $type-none;
+                background: $color-transparente;
+                height: $t-200px;
+                border: $type-none;
+                border-bottom: $t-borde-2px $tipo-borde $color-borde-input;
+                color: $color-blanco;
+                &::placeholder{
+                color: $color-blanco;
+                }
+            }
+            .input:nth-child(5){
+                color: $color-blanco;
+                border:$t-borde-2px $tipo-borde $color-borde-input;
+                background-color: $bg-input-submit;
+                width: $t-65por;
+                &:focus{
+                    background-color: $color-activeyfocus;
+                }
+            }
+        }
+        .imgInputcontainer{
+            border-radius: $t-50por;
+            background-color: $color-blanco;
+            height: $t-600px;
+            width: $t-600px;
+         }
+         .imgInputcontainer img {
+             width: $t-600px;
+             height: $t-600px;
+         }
+    }
+}

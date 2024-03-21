@@ -1,0 +1,34 @@
+.catalogoContainer{
+    .containerTitle h1{
+        color: $color-secundario;
+    }
+    .catalogoImgcontainer{
+        .prendasCatalogo{
+            .btn-primary{
+                background-color:$color-primario;
+                border: $color-primario;
+            }
+            .buttonColor{
+                background-color:$color-primario;
+                border-color:$color-primario;
+                &:active{
+                     background-color: $color-activeyfocus;
+                }
+            }
+            .catalogoImg {
+                width: $t-350px;
+                height:$t-350px;
+                object-fit: $object-cover;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .catalogoImgcontainer{
+        .catalogoImg {
+            width: $t-290px;
+            height: $t-290px;
+            object-fit: $object-cover;
+        }
+    }
+}

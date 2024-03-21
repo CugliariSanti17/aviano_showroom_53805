@@ -1,0 +1,25 @@
+footer{
+    background-color: $color-primario;
+    color: $color-texto-footer;
+    .footerParrafo{
+        font-size: $fs-chico;
+    }
+    .footerLogo img{
+        width: $t-350px;
+        height:$t-150px;
+    }
+    .footerIcons a{
+        font-size: $fs-mediano;
+        color: $color-blanco;
+        &:hover{
+            color: $color-hover-principal;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    footer{
+        .footerParrafo{
+            font-size: $fs-1;
+        }
+    }
+}

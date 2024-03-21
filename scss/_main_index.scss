@@ -1,0 +1,111 @@
+.tituloPrincipalindex{
+    text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
+    color: $color-titulo-principal;
+}
+
+.offerContainer{
+    .offerTitle {
+        .avianoText {
+            color: $color-secundario;
+        }
+    }
+    .offerImg {
+        width: $t-350px;
+        height:$t-350px;
+    }
+}
+@media screen and (max-width:768px){
+    .offerContainer{
+        .offerTitle {
+            h2{
+                font-size: $fs-chico;
+            }
+        }
+    }
+}
+
+.colaboracionContainer {
+    background-color: $color-primario;
+    .colaboracion{
+            height: $t-100vh;
+        .videoContainer{
+            height: $t-100por;
+            iframe {
+                height: $t-100por;
+                width: $t-100por;
+            }
+        } 
+        .infoVideo {
+            color: $color-blanco;
+            h2{
+                font-size: $fs-grande;
+            }
+            p{
+                font-size: $fs-chico;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .colaboracionContainer {
+        .colaboracion{
+            height: $t-100vh;
+        .videoContainer{
+            height: $t-72por;
+            } 
+        }
+    }
+}
+.linksContainer{
+    .linkCatalogo{
+        height: $t-350px;
+        background-color: $background-links;
+        border: $t-borde-5px $tipo-borde $color-terciario;
+        width: $t-700px;
+        margin: $t-0 $margin-auto;
+        a{
+            border: $t-borde-3px $tipo-borde $color-borde;
+            background-color: $color-primario;
+            width: $t-100px;
+            height:$t-50px;
+            color: $color-negro;
+            text-decoration: $type-none;
+            &:hover{
+                background-color:$color-hover-secundario;
+            }
+        }
+    }
+    .linkContacto{
+        height:$t-350px;
+        background-color: $background-links;
+        border: $t-borde-5px $tipo-borde $color-terciario;
+        width: $t-700px;
+        a{
+            border: $t-borde-3px $tipo-borde $color-borde;
+            background-color: $color-primario;
+            width: $t-100px;
+            height:$t-50px;
+            color: $color-negro;
+            text-decoration: $type-none;
+            &:hover{
+                background-color:$color-hover-secundario;;
+            }
+        }
+    }
+}
+.recomendacionContainer{
+    .recomendacionTitle{
+        h3{
+            color: $color-secundario;
+        }
+        hr{
+            width: $t-200px;
+        }
+    }
+    .card{
+        .card-title{
+            color: $color-secundario;
+        }
+    }
+}

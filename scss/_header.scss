@@ -1,0 +1,23 @@
+header{
+    .bgNav{
+       background-color: $color-primario;
+    }
+    .avianoLogo{
+        width: $t-350px;
+        height:$t-150px;
+    }
+    .nav-link{
+        font-size: $fs-nav;
+            &:hover{
+                color:$color-hover-principal;
+            }
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        .avianoLogo{
+            width: $t-250px;
+            height: $t-150px;
+        }
+    }
+}

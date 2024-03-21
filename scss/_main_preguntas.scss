@@ -1,0 +1,26 @@
+.preguntasContainer{
+    .questionTitle{
+        color: $color-secundario;
+    }
+    .questionAcordeon{
+        .acordeonColor {
+            background-color:$color-primario;
+            color: $color-blanco;
+        }
+    }
+    .dudasContent{
+        h2{
+            color:$color-secundario;
+        }
+        a{
+            color: $color-blanco;
+            background-color: $color-primario;
+            border: $t-borde-2px $tipo-borde $color-negro;
+            width: $t-100px;
+            height: $t-50px;
+            &:hover{
+                background-color:$color-hover-secundario;
+            }
+        }
+    }
+}

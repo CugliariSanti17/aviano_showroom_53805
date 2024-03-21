@@ -1,0 +1,48 @@
+.nosContainer {
+    .nosH1{
+        color:$color-secundario;
+    }
+}
+.ubiContainer{
+    .nosH2{
+        color:$color-secundario;
+    }
+    .negocioContainer{
+        height: $t-70vh;
+        .mapContainer{
+            iframe{
+                width: $t-100por;
+                height: $t-100por;
+            }
+        }
+        .containerLocalimg{
+            height: $t-100por;
+            .localImg{
+            width: $t-300px;
+            height: $t-300px;
+            object-fit: $object-cover;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .ubiContainer{
+        .negocioContainer{
+            height: initial;
+            .mapContainer{
+                height: $t-50por;
+                iframe{
+                    height: $t-400px;
+                }
+            }
+            .containerLocalimg{
+                width: $t-100por;
+                .localImg{
+                margin: initial;
+                width: $t-50por;
+                height: $t-300px;
+                }
+            }
+        }
+    }
+}
