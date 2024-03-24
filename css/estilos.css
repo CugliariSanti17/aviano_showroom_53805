@@ -41,6 +41,9 @@ header .nav-link:hover {
   width: 350px;
   height: 350px;
 }
+.offerContainer .card {
+  border: 3px solid rgb(255, 71, 194);
+}
 
 @media screen and (max-width: 768px) {
   .offerContainer .offerTitle h2 {
