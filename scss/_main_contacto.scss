@@ -17,6 +17,9 @@
                 &::placeholder{
                     color: $color-blanco;
                 }
+                &:focus{
+                    outline: $type-none;
+                }
             }
             .textArea{
                 width: $t-80por;
@@ -28,6 +31,9 @@
                 color: $color-blanco;
                 &::placeholder{
                 color: $color-blanco;
+                }
+                &:focus{
+                    outline: $type-none;
                 }
             }
             .input:nth-child(5){

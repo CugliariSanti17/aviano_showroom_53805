@@ -49,11 +49,16 @@
         </div>
         <form action="404.html" class="form container-fluid pt-2 mb-5" method="post">
           <div class="contactContent row h-100">
-            <div class="inputContainer col-12 col-md-7 d-flex flex-column justify-content-evenly align-items-center">      
+            <div class="inputContainer col-12 col-md-7 d-flex flex-column justify-content-evenly align-items-center"> 
+            <label for="nombre"></label>     
             <input class="input mb-1" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <label for="apellido"></label>
             <input class="input mb-1" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            <label for="email"></label>
             <input class="input mb-1" type="mail" name="email" id="email" placeholder="Ingrese su Email" required>
+            <label for="asunto"></label>
             <textarea name="asunto" id="asunto" cols="30" rows="10" placeholder="Asunto" required class="textArea mb-1"></textarea>
+            <label for="boton"></label>
             <input class="input mt-1" type="submit" name="boton" id="boton">
           </div>
           <div class="imgInputcontainer d-none d-md-block col-12 col-md-5 text-center d-flex justify-content-center align-items-center">
