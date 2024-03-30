@@ -76,11 +76,11 @@
             color: $color-secundario;
         }
         hr{
-            width: $t-200px;
+            width: map-get($tamañopx, t-200px );;
         }
     }
     .card{
-        height: $t-400px;
+        height: map-get($tamañopx, t-400px );
         .card-title{
             color: $color-secundario;
         }

@@ -1,6 +1,6 @@
 * {
-    padding: $t-0;
-    margin: $t-0;
+    padding: map-get($tamañopx, t-0 );
+    margin: map-get($tamañopx, t-0 );
 }
 
 body{

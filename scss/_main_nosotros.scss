@@ -18,8 +18,8 @@
         .containerLocalimg{
             height: $t-100por;
             .localImg{
-            width: $t-300px;
-            height: $t-300px;
+            width: map-get($tamañopx, t-300px );
+            height: map-get($tamañopx, t-300px );
             object-fit: $object-cover;
             }
         }
@@ -32,7 +32,7 @@
             .mapContainer{
                 height: $t-50por;
                 iframe{
-                    height: $t-400px;
+                    height: map-get($tamañopx, t-400px);
                 }
             }
             .containerLocalimg{
@@ -40,7 +40,7 @@
                 .localImg{
                 margin: initial;
                 width: $t-50por;
-                height: $t-300px;
+                height: map-get($tamañopx, t-300px );
                 }
             }
         }

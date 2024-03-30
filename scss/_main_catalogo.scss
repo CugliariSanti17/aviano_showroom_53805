@@ -16,8 +16,8 @@
                 }
             }
             .catalogoImg {
-                width: $t-350px;
-                height:$t-350px;
+                width: map-get($tamañopx, t-350px );;
+                height:map-get($tamañopx, t-350px );;
                 object-fit: $object-cover;
             }
         }
@@ -26,8 +26,8 @@
 @media screen and (max-width:768px){
     .catalogoImgcontainer{
         .catalogoImg {
-            width: $t-290px;
-            height: $t-290px;
+            width: map-get($tamañopx, t-290px );
+            height:map-get($tamañopx, t-290px);
             object-fit: $object-cover;
         }
     }

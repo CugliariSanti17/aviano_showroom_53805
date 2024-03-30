@@ -5,8 +5,8 @@ footer{
         font-size: $fs-chico;
     }
     .footerLogo img{
-        width: $t-350px;
-        height:$t-150px;
+        width: map-get($tamañopx, t-350px );
+        height:map-get($tamañopx, t-150px );
     }
     .footerIcons a{
         font-size: $fs-mediano;

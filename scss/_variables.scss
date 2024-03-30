@@ -35,20 +35,22 @@ $fs-chico: 1.2rem;
 $fs-1: 1rem;
 $fs-nav: 1.3rem;
 
-$t-0: 0;
-$t-30px: 30px;
-$t-50px: 50px;
-$t-100px: 100px;
-$t-150px: 150px;
-$t-200px: 200px;
-$t-250px: 250px;
-$t-290px: 290px;
-$t-300px: 300px;
-$t-350px: 350px;
-$t-400px: 400px;
-$t-500px: 500px;
-$t-600px: 600px;
-$t-700px: 700px;
+$tamañopx:(
+    t-0: 0,
+    t-30px: 30px,
+    t-50px: 50px,
+    t-100px: 100px,
+    t-150px: 150px,
+    t-200px: 200px,
+    t-250px: 250px,
+    t-290px: 290px,
+    t-300px: 300px,
+    t-350px: 350px,
+    t-400px: 400px,
+    t-500px: 500px,
+    t-600px: 600px,
+    t-700px: 700px,
+);  
 
 $margin-auto: auto;
 $type-none: none;
