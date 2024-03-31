@@ -1,3 +1,15 @@
+@keyframes flotar {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
 footer{
     background-color: $color-primario;
     color: $color-texto-footer;
@@ -11,8 +23,9 @@ footer{
     .footerIcons a{
         font-size: $fs-mediano;
         color: $color-blanco;
-        &:hover{
+        &:hover i{
             color: $color-hover-principal;
+            animation: flotar 1s ease-in-out 1;
         }
     }
 }

@@ -9,6 +9,17 @@ body {
   color: black;
 }
 
+@keyframes flotar {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 header .bgNav {
   background-color: rgb(255, 55, 188);
 }
@@ -21,6 +32,9 @@ header .nav-link {
 }
 header .nav-link:hover {
   color: #bbb;
+}
+header .nav-link:hover i {
+  animation: flotar 1s ease-in-out 1;
 }
 
 @media screen and (max-width: 768px) {
@@ -77,30 +91,31 @@ header .nav-link:hover {
     height: 72%;
   }
 }
-.linksContainer .linkCatalogo {
+.linksContainer .links .linkCatalogo {
   height: 350px;
   background-color: rgb(253, 202, 210);
   border: 5px solid rgb(253, 138, 199);
   width: 700px;
 }
-.linksContainer .linkCatalogo a {
+.linksContainer .links .linkCatalogo a {
   border: 3px solid pink;
   background-color: rgb(255, 55, 188);
   width: 100px;
   height: 50px;
   color: black;
   text-decoration: none;
+  transition: all 0.5s ease-in;
 }
-.linksContainer .linkCatalogo a:hover {
+.linksContainer .links .linkCatalogo a:hover {
   background-color: rgb(251, 105, 202);
 }
-.linksContainer .linkContacto {
+.linksContainer .links .linkContacto {
   height: 350px;
   background-color: rgb(253, 202, 210);
   border: 5px solid rgb(253, 138, 199);
   width: 700px;
 }
-.linksContainer .linkContacto a {
+.linksContainer .links .linkContacto a {
   border: 3px solid pink;
   background-color: rgb(255, 55, 188);
   width: 100px;
@@ -108,7 +123,7 @@ header .nav-link:hover {
   color: black;
   text-decoration: none;
 }
-.linksContainer .linkContacto a:hover {
+.linksContainer .links .linkContacto a:hover {
   background-color: rgb(251, 105, 202);
 }
 
@@ -172,6 +187,23 @@ header .nav-link:hover {
     height: 300px;
   }
 }
+@keyframes rotar {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-25deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 .catalogoContainer .containerTitle h1 {
   color: rgb(255, 71, 194);
 }
@@ -185,6 +217,9 @@ header .nav-link:hover {
 }
 .catalogoContainer .catalogoImgcontainer .prendasCatalogo .buttonColor:active {
   background-color: rgb(253, 132, 247);
+}
+.catalogoContainer .catalogoImgcontainer .prendasCatalogo .buttonColor:hover {
+  animation: rotar 0.5s ease-in-out 1;
 }
 .catalogoContainer .catalogoImgcontainer .prendasCatalogo .catalogoImg {
   width: 350px;
@@ -278,6 +313,17 @@ header .nav-link:hover {
   height: 600px;
 }
 
+@keyframes flotar {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 footer {
   background-color: rgb(255, 55, 188);
   color: rgb(61, 61, 61);
@@ -293,8 +339,9 @@ footer .footerIcons a {
   font-size: 2rem;
   color: rgb(250, 250, 250);
 }
-footer .footerIcons a:hover {
+footer .footerIcons a:hover i {
   color: #bbb;
+  animation: flotar 1s ease-in-out 1;
 }
 
 @media screen and (max-width: 768px) {

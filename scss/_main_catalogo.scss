@@ -1,3 +1,21 @@
+@keyframes rotar {
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(-25deg);
+    }
+    50%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(25deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
 .catalogoContainer{
     .containerTitle h1{
         color: $color-secundario;
@@ -13,6 +31,9 @@
                 border-color:$color-primario;
                 &:active{
                      background-color: $color-activeyfocus;
+                }
+                &:hover{
+                    animation: rotar 0.5s ease-in-out 1;
                 }
             }
             .catalogoImg {

@@ -1,3 +1,16 @@
+@keyframes flotar {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+
 header{
     .bgNav{
        background-color: $color-primario;
@@ -8,9 +21,12 @@ header{
     }
     .nav-link{
         font-size: $fs-nav;
-            &:hover{
-                color:$color-hover-principal;
-            }
+        &:hover{
+            color:$color-hover-principal;
+        }
+        &:hover i {
+            animation: flotar 1s ease-in-out 1;
+        }
     }
 }
 @media screen and (max-width:768px){
