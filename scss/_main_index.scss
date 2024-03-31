@@ -58,15 +58,15 @@
 }
 .linksContainer{
     .linkCatalogo{
-        @include linksIndex;
+        @include linksIndex (map-get($tamañopx, t-350px ),$background-links,$t-borde-5px $tipo-borde $color-terciario,map-get($tamañopx, t-700px ));
         a{
-            @include boton;
+            @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario);
         }
     }
     .linkContacto{
-       @include linksIndex;
+       @include linksIndex (map-get($tamañopx, t-350px ),$background-links,$t-borde-5px $tipo-borde $color-terciario,map-get($tamañopx, t-700px ));
         a{
-           @include boton;
+            @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario);
         }
     }
 }
@@ -83,6 +83,13 @@
         height: map-get($tamañopx, t-400px );
         .card-title{
             color: $color-secundario;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .recomendacionContainer{
+        .card{
+            height: map-get($tamañopx, t-450px );
         }
     }
 }

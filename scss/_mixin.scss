@@ -1,18 +1,19 @@
-@mixin boton {
-    border: $t-borde-3px $tipo-borde $color-borde;
-    background-color: $color-primario;
-    width: map-get($tamañopx, t-100px);
-    height:map-get($tamañopx, t-50px );
-    color: $color-negro;
-    text-decoration: $type-none;
+
+@mixin estiloBoton($border, $bg-color, $width, $height, $color, $text-decoration, $bg-color-hover){
+    border: $border;
+    background-color: $bg-color;
+    width: $width;
+    height: $height;
+    color: $color;
+    text-decoration: $text-decoration;
     &:hover{
-        background-color:$color-hover-secundario;
+        background-color: $bg-color-hover;
     }
 }
 
-@mixin linksIndex {
-    height: map-get($tamañopx, t-350px );
-    background-color: $background-links;
-    border: $t-borde-5px $tipo-borde $color-terciario;
-    width: map-get($tamañopx, t-700px );
+@mixin linksIndex($height, $bg-color, $border, $width){
+    height: $height;
+    background-color: $bg-color;
+    border: $border;
+    width: $width;
 }

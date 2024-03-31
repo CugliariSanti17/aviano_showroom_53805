@@ -125,6 +125,11 @@ header .nav-link:hover {
   color: rgb(255, 71, 194);
 }
 
+@media screen and (max-width: 768px) {
+  .recomendacionContainer .card {
+    height: 450px;
+  }
+}
 .nosContainer .nosH1 {
   color: rgb(255, 71, 194);
 }
