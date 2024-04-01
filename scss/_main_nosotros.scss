@@ -3,8 +3,17 @@
         color:$color-secundario;
     }
     .nosContent{
+        width: map-get($tamañopx, t-1000px);
         .nosContentparrafo{
             font-family: $fuente-secundaria;
+            text-align: $text-justify;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .nosContainer {
+        .nosContent{
+            width: initial;
         }
     }
 }

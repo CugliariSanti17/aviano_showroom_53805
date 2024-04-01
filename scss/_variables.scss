@@ -52,6 +52,7 @@ $tamañopx:(
     t-500px: 500px,
     t-600px: 600px,
     t-700px: 700px,
+    t-1000px: 1000px,
 );  
 
 $margin-auto: auto;
@@ -63,5 +64,6 @@ $bg-input-submit: rgb(255, 84, 246);
 $color-texto-footer: rgb(61, 61, 61);
 $gradiente-bg-input: linear-gradient(to bottom, transparent, rgb(255, 76, 195));
 $color-focus-input:  rgb(243, 132, 225);
+$text-justify: justify;
 
 $transition-principal: all 1s ease-out; 

@@ -150,10 +150,19 @@ header .nav-link:hover i {
 .nosContainer .nosH1 {
   color: rgb(255, 71, 194);
 }
+.nosContainer .nosContent {
+  width: 1000px;
+}
 .nosContainer .nosContent .nosContentparrafo {
   font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
 
+@media screen and (max-width: 768px) {
+  .nosContainer .nosContent {
+    width: initial;
+  }
+}
 .ubiContainer .nosH2 {
   color: rgb(255, 71, 194);
 }
