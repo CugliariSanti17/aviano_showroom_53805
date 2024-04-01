@@ -19,6 +19,8 @@
                 }
                 &:focus{
                     outline: $type-none;
+                    background: $gradiente-bg-input;
+                    border-bottom: $t-borde-2px $tipo-borde $color-focus-input;
                 }
             }
             .textArea{
@@ -34,6 +36,8 @@
                 }
                 &:focus{
                     outline: $type-none;
+                    background: $gradiente-bg-input;
+                    border-bottom: $t-borde-2px $tipo-borde $color-focus-input;
                 }
             }
             .input:nth-child(10){

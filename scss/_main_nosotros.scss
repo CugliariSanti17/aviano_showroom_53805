@@ -2,6 +2,11 @@
     .nosH1{
         color:$color-secundario;
     }
+    .nosContent{
+        .nosContentparrafo{
+            font-family: $fuente-secundaria;
+        }
+    }
 }
 .ubiContainer{
     .nosH2{

@@ -10,6 +10,7 @@ $color-hover-principal: #bbb;
 $color-hover-secundario: rgb(251, 105, 202);
 
 $fuente-principal: "Lora", serif;
+$fuente-secundaria: "Roboto", sans-serif;
 
 $tipo-borde: solid;
 $color-borde: pink;
@@ -60,5 +61,7 @@ $object-cover: cover;
 $color-transparente: transparent;
 $bg-input-submit: rgb(255, 84, 246);
 $color-texto-footer: rgb(61, 61, 61);
+$gradiente-bg-input: linear-gradient(to bottom, transparent, rgb(255, 76, 195));
+$color-focus-input:  rgb(243, 132, 225);
 
 $transition-principal: all 1s ease-out; 
