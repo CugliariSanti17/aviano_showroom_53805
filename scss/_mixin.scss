@@ -1,5 +1,5 @@
 
-@mixin estiloBoton($border, $bg-color, $width, $height, $color, $text-decoration, $bg-color-hover){
+@mixin estiloBoton($border, $bg-color, $width, $height, $color, $text-decoration, $bg-color-hover, $transition){
     border: $border;
     background-color: $bg-color;
     width: $width;
@@ -8,6 +8,7 @@
     text-decoration: $text-decoration;
     &:hover{
         background-color: $bg-color-hover;
+        transition: $transition;
     }
 }
 

@@ -36,12 +36,13 @@
                     outline: $type-none;
                 }
             }
-            .input:nth-child(5){
+            .input:nth-child(10){
                 color: $color-blanco;
                 border:$t-borde-2px $tipo-borde $color-borde-input;
                 background-color: $bg-input-submit;
                 width: $t-65por;
-                &:focus{
+                transition: $transition-principal;
+                &:focus{ 
                     background-color: $color-activeyfocus;
                 }
             }

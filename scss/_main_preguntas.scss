@@ -13,7 +13,7 @@
             color:$color-secundario;
         }
         a{
-            @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario);
+            @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario,$transition-principal);
         }
     }
 }
