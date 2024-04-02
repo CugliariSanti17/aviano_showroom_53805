@@ -97,6 +97,8 @@ header .nav-link:hover i {
   background-color: rgb(253, 202, 210);
   border: 5px solid rgb(253, 138, 199);
   width: 700px;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 .linksContainer .links .linkCatalogo a {
   border: 3px solid pink;
