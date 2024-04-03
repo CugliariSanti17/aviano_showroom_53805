@@ -146,7 +146,7 @@ header .nav-link:hover i {
 
 @media screen and (max-width: 768px) {
   .recomendacionContainer .card {
-    height: 450px;
+    height: 500px;
   }
 }
 .nosContainer .nosH1 {
