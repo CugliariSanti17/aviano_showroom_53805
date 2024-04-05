@@ -94,6 +94,11 @@
     .recomendacionContainer{
         .card{
             height: map-get($tamañopx, t-550px );
+            .card-body{
+                .card-title{
+                    font-size: $fs-chico;
+                }
+            }
         }
     }
 }

@@ -148,6 +148,9 @@ header .nav-link:hover i {
   .recomendacionContainer .card {
     height: 550px;
   }
+  .recomendacionContainer .card .card-body .card-title {
+    font-size: 1.2rem;
+  }
 }
 .nosContainer .nosH1 {
   color: rgb(255, 71, 194);
