@@ -1,0 +1,15 @@
+.errorContainer{
+    .errorTitle {
+        .error404{
+            color: $color-primario;
+        }
+    }
+    .errorImg{
+        width: map-get($tamañopx, t-300px);
+        border: $t-borde-3px $tipo-borde $color-borde;
+        border-radius: $t-borde-7px;
+    } 
+    .errorBoton{
+        @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-150px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario,$transition-principal);
+    }
+}

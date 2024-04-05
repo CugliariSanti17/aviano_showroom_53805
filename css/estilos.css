@@ -335,6 +335,27 @@ header .nav-link:hover i {
   height: 600px;
 }
 
+.errorContainer .errorTitle .error404 {
+  color: rgb(255, 55, 188);
+}
+.errorContainer .errorImg {
+  width: 300px;
+  border: 3px solid pink;
+  border-radius: 7px;
+}
+.errorContainer .errorBoton {
+  border: 3px solid pink;
+  background-color: rgb(255, 55, 188);
+  width: 150px;
+  height: 50px;
+  color: black;
+  text-decoration: none;
+}
+.errorContainer .errorBoton:hover {
+  background-color: rgb(251, 105, 202);
+  transition: all 1s ease-out;
+}
+
 @keyframes flotar {
   0% {
     transform: translate(0);
