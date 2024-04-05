@@ -167,6 +167,12 @@ header .nav-link:hover i {
   .nosContainer .nosContent {
     width: initial;
   }
+  .nosContainer .nosContent .nosContentsubtitle {
+    font-size: 1.2rem;
+  }
+  .nosContainer .nosContent .nosContentparrafo {
+    font-size: 1rem;
+  }
 }
 .ubiContainer .nosH2 {
   color: rgb(255, 71, 194);

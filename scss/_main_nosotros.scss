@@ -14,6 +14,12 @@
     .nosContainer {
         .nosContent{
             width: initial;
+            .nosContentsubtitle{
+                font-size: $fs-chico;
+            }
+            .nosContentparrafo{
+                font-size: $fs-1;
+            }
         }
     }
 }
