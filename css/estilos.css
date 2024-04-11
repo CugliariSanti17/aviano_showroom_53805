@@ -146,7 +146,7 @@ header .nav-link:hover i {
 
 @media screen and (max-width: 768px) {
   .recomendacionContainer .card {
-    height: 550px;
+    height: 450px;
   }
   .recomendacionContainer .card .card-body .card-title {
     font-size: 1.2rem;
