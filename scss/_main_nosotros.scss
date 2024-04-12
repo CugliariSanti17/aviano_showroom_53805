@@ -4,6 +4,9 @@
     }
     .nosContent{
         width: map-get($tamañopx, t-1000px);
+        .spanNosotros{
+            color: $color-secundario;
+        }
         .nosContentparrafo{
             font-family: $fuente-secundaria;
             text-align: $text-justify;

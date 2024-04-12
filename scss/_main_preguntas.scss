@@ -4,8 +4,11 @@
     }
     .questionAcordeon{
         .acordeonColor {
-            background-color:$color-primario;
+            background-color:$color-cuartario;
             color: $color-blanco;
+            &:focus{
+                background-color: $color-secundario;
+            }
         }
     }
     .dudasContent{

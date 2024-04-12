@@ -37,8 +37,8 @@
                 }
             }
             .catalogoImg {
-                width: map-get($tamañopx, t-350px );;
-                height:map-get($tamañopx, t-350px );;
+                width: map-get($tamañopx, t-350px );
+                height:map-get($tamañopx, t-350px );
                 object-fit: $object-cover;
             }
         }

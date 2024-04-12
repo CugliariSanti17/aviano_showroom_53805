@@ -1,4 +1,18 @@
+@keyframes tituloIndex {
+    0%{
+        text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
+    }
+    50%{
+        text-shadow: $type-none;
+    }
+    100%{
+        text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
+    }
+}
+
+
 .tituloPrincipalindex{
+    animation: tituloIndex 1s ease-in-out 1;
     text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
     color: $color-titulo-principal;
 }
@@ -11,6 +25,18 @@
     }
     .card{
         border: $t-borde-3px $tipo-borde $color-secundario;
+        img{
+            object-fit: $object-cover;
+        }
+        .card-body{
+            .precioViejo{
+                color: $color-gris;
+                font-size: $fs-1;
+            }
+            .precioOferta{
+                font-size: $fs-chico;
+            }
+        }
     }
 }
 @media screen and (max-width:768px){
@@ -26,7 +52,7 @@
 .colaboracionContainer {
     background-color: $color-primario;
     .colaboracion{
-            height: $t-100vh;
+            height: $t-90vh;
         .videoContainer{
             height: $t-100por;
             iframe {
