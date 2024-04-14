@@ -16,7 +16,7 @@ header{
        background-color: $color-primario;
     }
     .avianoLogo{
-        width: map-get($tamañopx, t-350px );
+        width: map-get($tamañopx, t-300px );
         height:map-get($tamañopx, t-150px );
     }
     .nav-link{
@@ -25,7 +25,7 @@ header{
             color:$color-hover-principal;
         }
         &:hover i {
-            animation: flotar 1s ease-in-out 1;
+            animation: $transition-flotar
         }
     }
 }

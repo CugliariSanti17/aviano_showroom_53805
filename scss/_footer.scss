@@ -60,7 +60,7 @@ footer{
                 color: $color-blanco;
                 &:hover{
                     color: $color-hover-principal;
-                    animation: flotar 1s ease-in 1;
+                    animation: $transition-flotar;
                 }
             }
         }
