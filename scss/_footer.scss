@@ -12,27 +12,60 @@
 
 footer{
     background-color: $color-primario;
-    color: $color-texto-footer;
-    .footerParrafo{
-        font-size: $fs-chico;
+    .footerLogo{
+        .footerImg{
+            width: map-get($tamañopx, t-300px);
+            height: map-get($tamañopx, t-150px);
+        }
+        p{
+            color: $color-blanco;
+        }
     }
-    .footerLogo img{
-        width: map-get($tamañopx, t-350px );
-        height:map-get($tamañopx, t-150px );
+    .footerLinksprincipal{
+        .footerContenido{
+            .contenidoTitle{
+                color: $color-titulo-footer;
+            }
+            a{
+                text-decoration: $type-none;
+                color: $color-blanco;
+                &:hover{
+                    color: $color-hover-principal;
+                }
+            }
+        }
     }
-    .footerIcons a{
-        font-size: $fs-mediano;
+    .footerLinkssecundario{
+        .ayudaTitle{
+            color: $color-titulo-footer;
+        }
+        a{
+            text-decoration: $type-none;
+            color: $color-blanco;
+            &:hover{
+                color: $color-hover-principal;
+            }
+        }
+    }
+    .footerRedes{
+        .redesTitle{
+            color: $color-titulo-footer;
+        }
+        .footerIcons{
+            a{
+                text-decoration: $type-none;
+            }
+            i{
+                font-size: $fs-mediano;
+                color: $color-blanco;
+                &:hover{
+                    color: $color-hover-principal;
+                    animation: flotar 1s ease-in 1;
+                }
+            }
+        }
+    }
+    .textoCopyright{
         color: $color-blanco;
-        &:hover i{
-            color: $color-hover-principal;
-            animation: flotar 1s ease-in-out 1;
-        }
-    }
-}
-@media screen and (max-width:768px){
-    footer{
-        .footerParrafo{
-            font-size: $fs-1;
-        }
     }
 }

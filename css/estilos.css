@@ -406,28 +406,50 @@ header .nav-link:hover i {
 }
 footer {
   background-color: rgb(255, 55, 188);
-  color: rgb(61, 61, 61);
 }
-footer .footerParrafo {
-  font-size: 1.2rem;
-}
-footer .footerLogo img {
-  width: 350px;
+footer .footerLogo .footerImg {
+  width: 300px;
   height: 150px;
 }
-footer .footerIcons a {
+footer .footerLogo p {
+  color: rgb(250, 250, 250);
+}
+footer .footerLinksprincipal .footerContenido .contenidoTitle {
+  color: rgb(247, 182, 225);
+}
+footer .footerLinksprincipal .footerContenido a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+footer .footerLinksprincipal .footerContenido a:hover {
+  color: #bbb;
+}
+footer .footerLinkssecundario .ayudaTitle {
+  color: rgb(247, 182, 225);
+}
+footer .footerLinkssecundario a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+footer .footerLinkssecundario a:hover {
+  color: #bbb;
+}
+footer .footerRedes .redesTitle {
+  color: rgb(247, 182, 225);
+}
+footer .footerRedes .footerIcons a {
+  text-decoration: none;
+}
+footer .footerRedes .footerIcons i {
   font-size: 2rem;
   color: rgb(250, 250, 250);
 }
-footer .footerIcons a:hover i {
+footer .footerRedes .footerIcons i:hover {
   color: #bbb;
-  animation: flotar 1s ease-in-out 1;
+  animation: flotar 1s ease-in 1;
 }
-
-@media screen and (max-width: 768px) {
-  footer .footerParrafo {
-    font-size: 1rem;
-  }
+footer .textoCopyright {
+  color: rgb(250, 250, 250);
 }
 
 /*# sourceMappingURL=estilos.css.map */
