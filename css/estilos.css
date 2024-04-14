@@ -250,10 +250,19 @@ header .nav-link:hover i {
 .catalogoContainer .catalogoImgcontainer .prendasCatalogo .buttonColor:hover {
   animation: rotar 0.5s ease-in-out 1;
 }
-.catalogoContainer .catalogoImgcontainer .prendasCatalogo .catalogoImg {
+.catalogoContainer .catalogoImgcontainer .prendasCatalogo .imgContainer {
   width: 350px;
   height: 350px;
+  overflow: hidden;
+}
+.catalogoContainer .catalogoImgcontainer .prendasCatalogo .imgContainer .catalogoImg {
   object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-out;
+}
+.catalogoContainer .catalogoImgcontainer .prendasCatalogo .imgContainer .catalogoImg:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 768px) {

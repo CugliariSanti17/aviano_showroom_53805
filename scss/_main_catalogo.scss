@@ -36,10 +36,20 @@
                     animation: rotar 0.5s ease-in-out 1;
                 }
             }
-            .catalogoImg {
+            .imgContainer {
                 width: map-get($tamañopx, t-350px );
                 height:map-get($tamañopx, t-350px );
-                object-fit: $object-cover;
+                overflow: hidden;
+                .catalogoImg{
+                    object-fit: $object-cover;
+                    width: $t-100por;
+                    height: $t-100por;
+                    transition: $transition-principal;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+                
             }
         }
     }
