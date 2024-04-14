@@ -431,4 +431,16 @@ footer .textoCopyright {
   color: rgb(250, 250, 250);
 }
 
+@media screen and (max-width: 768px) {
+  footer .footerLinksprincipal {
+    margin: 15px 0;
+  }
+  footer .footerLinkssecundario {
+    margin: 15px 0;
+  }
+  footer .footerRedes {
+    margin: 15px 0;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */

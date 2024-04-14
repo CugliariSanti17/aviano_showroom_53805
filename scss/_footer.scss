@@ -69,3 +69,16 @@ footer{
         color: $color-blanco;
     }
 }
+@media screen and (max-width:768px){
+    footer{
+        .footerLinksprincipal{
+            margin: 15px 0 ;
+        }
+        .footerLinkssecundario{
+            margin: 15px 0;
+        }
+        .footerRedes{
+            margin: 15px 0;
+        }
+    }
+}
