@@ -236,6 +236,13 @@ header .nav-link:hover i {
 .catalogoContainer .containerTitle h1 {
   color: rgb(255, 71, 194);
 }
+.catalogoContainer .catalogoImgcontainer .prendasCatalogo .precioViejo {
+  color: grey;
+  font-size: 1rem;
+}
+.catalogoContainer .catalogoImgcontainer .prendasCatalogo .precioOferta {
+  font-size: 1.2rem;
+}
 .catalogoContainer .catalogoImgcontainer .prendasCatalogo .btn-primary {
   background-color: rgb(255, 55, 188);
   border: rgb(255, 55, 188);
