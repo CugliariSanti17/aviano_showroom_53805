@@ -2,14 +2,23 @@
     .nosH1{
         color:$color-secundario;
     }
-    .nosContent{
-        width: map-get($tamañopx, t-1000px);
-        .spanNosotros{
-            color: $color-secundario;
+    .nosTxt{
+        .nosContent{
+            .spanNosotros{
+                color: $color-secundario;
+            }
+            .nosContentparrafo{
+                font-family: $fuente-secundaria;
+                text-align: $text-justify;
+            }
         }
-        .nosContentparrafo{
-            font-family: $fuente-secundaria;
-            text-align: $text-justify;
+        .containerLocalimg{
+            height: $t-100por;
+            .localImg{
+                width: map-get($tamañopx, t-300px );
+                height: map-get($tamañopx, t-300px );
+                object-fit: $object-cover;
+            }
         }
     }
 }
@@ -30,42 +39,13 @@
     .nosH2{
         color:$color-secundario;
     }
-    .negocioContainer{
-        height: $t-70vh;
-        .mapContainer{
-            iframe{
-                width: $t-100por;
-                height: $t-100por;
-            }
-        }
-        .containerLocalimg{
+    .mapContainer{
+        width: $t-100por;
+        height: 50vh;
+        iframe{
+            width: $t-100por;
             height: $t-100por;
-            .localImg{
-            width: map-get($tamañopx, t-300px );
-            height: map-get($tamañopx, t-300px );
-            object-fit: $object-cover;
-            }
         }
     }
 }
-@media screen and (max-width:768px){
-    .ubiContainer{
-        .negocioContainer{
-            height: initial;
-            .mapContainer{
-                height: $t-50por;
-                iframe{
-                    height: map-get($tamañopx, t-400px);
-                }
-            }
-            .containerLocalimg{
-                width: $t-100por;
-                .localImg{
-                margin: initial;
-                width: $t-50por;
-                height: map-get($tamañopx, t-300px );
-                }
-            }
-        }
-    }
-}
+
