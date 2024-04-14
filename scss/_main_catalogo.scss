@@ -40,13 +40,13 @@
                      background-color: $color-activeyfocus;
                 }
                 &:hover{
-                    animation: rotar 0.5s ease-in-out 1;
+                    animation: $transition-rotar;
                 }
             }
             .imgContainer {
                 width: map-get($tamañopx, t-350px );
                 height:map-get($tamañopx, t-350px );
-                overflow: hidden;
+                overflow: $hidden;
                 .catalogoImg{
                     object-fit: $object-cover;
                     width: $t-100por;

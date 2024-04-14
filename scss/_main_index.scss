@@ -12,7 +12,7 @@
 
 
 .tituloPrincipalindex{
-    animation: tituloIndex 1s ease-in-out 1;
+    animation: $transition-sombra;
     text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
     color: $color-titulo-principal;
 }

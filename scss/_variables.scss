@@ -61,6 +61,7 @@ $tamañopx:(
 
 $margin-auto: auto;
 $type-none: none;
+$hidden: hidden;
 $color-activeyfocus: rgb(253, 132, 247);
 $object-cover: cover;
 $color-transparente: transparent;
@@ -72,3 +73,5 @@ $color-titulo-footer: rgb(247, 182, 225);
 $text-justify: justify;
 
 $transition-principal: all 1s ease-out; 
+$transition-sombra: tituloIndex 1s ease-in-out 1;
+$transition-rotar: rotar 0.5s ease-in-out 1;
