@@ -10,11 +10,15 @@
     }
 }
 
-
-.tituloPrincipalindex{
-    animation: $transition-sombra;
-    text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
-    color: $color-titulo-principal;
+.tituloPrincipalcontainer{
+    .tituloPrincipalindex{
+        animation: $transition-sombra;
+        text-shadow: $t-borde-7px $t-borde-4px $t-borde-5px $color-sombra;
+        color: $color-titulo-principal;
+    }
+    .tituloPrincipalhr{
+        width: map-get($tamañopx, t-200px );
+    }
 }
 
 .offerContainer{

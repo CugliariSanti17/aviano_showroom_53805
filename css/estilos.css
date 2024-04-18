@@ -55,10 +55,13 @@ header .nav-link:hover i {
     text-shadow: 7px 4px 5px rgb(255, 71, 194);
   }
 }
-.tituloPrincipalindex {
+.tituloPrincipalcontainer .tituloPrincipalindex {
   animation: tituloIndex 1s ease-in-out 1;
   text-shadow: 7px 4px 5px rgb(255, 71, 194);
   color: rgb(255, 0, 191);
+}
+.tituloPrincipalcontainer .tituloPrincipalhr {
+  width: 200px;
 }
 
 .offerContainer .offerTitle .avianoText {

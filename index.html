@@ -47,14 +47,17 @@
   </header>
 
   <main>
-    <h1 class="tituloPrincipalindex m-5 text-center">Descubre tu estilo único</h1>
+    <div class="tituloPrincipalcontainer d-flex flex-column justify-content-center align-items-center m-5">
+      <h1 class="tituloPrincipalindex text-center">Descubre tu estilo único</h1>
+      <hr class="tituloPrincipalhr ">
+    </div>
 
     <section class="offerContainer">
       <div class="offerTitle m-3">
         <h2 class="text-center">Encontrá las mejores ofertas en <span class="avianoText">AVIANO</span></h2>
       </div>
       <div class="prendasContainer d-none d-md-block">
-        <div class="prendas row justify-content-evenly align-items-center">
+        <div class="prendas row align-items-center justify-content-evenly">
           <div class="card col-md-3 text-center m-3" style="width: 18rem;">
             <picture>
               <source media="(max-width: 768px)" srcset="./assets/img/prenda1_oferta_290.jpg">
@@ -167,14 +170,14 @@
       </div>
     </section>
         
-    <section class="linksContainer container-fluid mt-2 mb-3" data-aos="zoom-in">
-      <div class="links p-3 row justify-content-center align-items-center">
+    <section class="linksContainer container-fluid mt-2 mb-3">
+      <div class="links p-3 row justify-content-center align-items-center" data-aos="zoom-in">
         <div class="linkCatalogo text-center col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
           <h3 class="m-3">Explorá nuestro Catálogo</h3>
           <p>Las mejores prendas se encuentran allí</p>
           <a href="./pages/catalogo.html" class="p-2">Ver</a>
         </div>
-        <div class="linkContacto text-center col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="linkContacto text-center col-12 col-md-6 d-flex flex-column justify-content-center align-items-center" data-aos="zoom-in">
           <h3 class="m-3">Contactanos</h3>
           <p>Escribinos y resolvemos tus dudas</p>
           <a href="./pages/contacto.html" class="p-2">Ir</a>
