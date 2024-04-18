@@ -64,17 +64,20 @@ header .nav-link:hover i {
 .offerContainer .offerTitle .avianoText {
   color: rgb(255, 71, 194);
 }
-.offerContainer .card {
+.offerContainer .prendas {
+  width: 100%;
+}
+.offerContainer .prendas .card {
   border: 3px solid rgb(255, 71, 194);
 }
-.offerContainer .card img {
+.offerContainer .prendas .card img {
   object-fit: cover;
 }
-.offerContainer .card .card-body .precioViejo {
+.offerContainer .prendas .card .card-body .precioViejo {
   color: grey;
   font-size: 1rem;
 }
-.offerContainer .card .card-body .precioOferta {
+.offerContainer .prendas .card .card-body .precioOferta {
   font-size: 1.2rem;
 }
 

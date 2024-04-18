@@ -23,18 +23,21 @@
             color: $color-secundario;
         }
     }
-    .card{
-        border: $t-borde-3px $tipo-borde $color-secundario;
-        img{
-            object-fit: $object-cover;
-        }
-        .card-body{
-            .precioViejo{
-                color: $color-gris;
-                font-size: $fs-1;
+    .prendas{
+        width: $t-100por;
+        .card{
+            border: $t-borde-3px $tipo-borde $color-secundario;
+            img{
+                object-fit: $object-cover;
             }
-            .precioOferta{
-                font-size: $fs-chico;
+            .card-body{
+                .precioViejo{
+                    color: $color-gris;
+                    font-size: $fs-1;
+                }
+                .precioOferta{
+                    font-size: $fs-chico;
+                }
             }
         }
     }
