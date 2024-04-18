@@ -88,17 +88,21 @@
 .linksContainer{
     .links{
         .linkCatalogo{
-            @include linksIndex (map-get($tamañopx, t-350px ),$background-links,$t-borde-5px $tipo-borde $color-terciario,map-get($tamañopx, t-700px ));
-            margin-right: map-get($tamañopx, t-0 );
-            margin-bottom: map-get($tamañopx, t-0 );
+            background:linear-gradient(to right,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.361)), url("../assets/img/fondo1_links_index.jpeg");
+            @include linksIndex (map-get($tamañopx, t-350px ),map-get($tamañopx, t-700px ));
+            margin: $t-borde-7px;
+
+            color: $color-blanco;
             a{
-                @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario,$transition-principal);
+                @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-blanco,$type-none,$color-hover-secundario,$transition-principal);
             }
         }
         .linkContacto{
-           @include linksIndex (map-get($tamañopx, t-350px ),$background-links,$t-borde-5px $tipo-borde $color-terciario,map-get($tamañopx, t-700px));
+            background:linear-gradient(to right,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.361)), url("../assets/img/fondo2_links_index.jpeg");
+            color: $color-blanco;
+            @include linksIndex (map-get($tamañopx, t-350px ),map-get($tamañopx, t-700px));
             a{
-                @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-negro,$type-none,$color-hover-secundario,$transition-principal);
+                @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-blanco,$type-none,$color-hover-secundario,$transition-principal);
             }
         }
     }

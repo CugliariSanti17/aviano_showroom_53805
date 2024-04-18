@@ -12,9 +12,7 @@
     }
 }
 
-@mixin linksIndex($height, $bg-color, $border, $width){
+@mixin linksIndex($height, $width){
     height: $height;
-    background-color: $bg-color;
-    border: $border;
     width: $width;
 }

@@ -118,19 +118,18 @@ header .nav-link:hover i {
   }
 }
 .linksContainer .links .linkCatalogo {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.361)), url("../assets/img/fondo1_links_index.jpeg");
   height: 350px;
-  background-color: rgb(253, 202, 210);
-  border: 5px solid rgb(253, 138, 199);
   width: 700px;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin: 7px;
+  color: rgb(250, 250, 250);
 }
 .linksContainer .links .linkCatalogo a {
   border: 3px solid pink;
   background-color: rgb(255, 55, 188);
   width: 100px;
   height: 50px;
-  color: black;
+  color: rgb(250, 250, 250);
   text-decoration: none;
 }
 .linksContainer .links .linkCatalogo a:hover {
@@ -138,9 +137,9 @@ header .nav-link:hover i {
   transition: all 1s ease-out;
 }
 .linksContainer .links .linkContacto {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.361)), url("../assets/img/fondo2_links_index.jpeg");
+  color: rgb(250, 250, 250);
   height: 350px;
-  background-color: rgb(253, 202, 210);
-  border: 5px solid rgb(253, 138, 199);
   width: 700px;
 }
 .linksContainer .links .linkContacto a {
@@ -148,7 +147,7 @@ header .nav-link:hover i {
   background-color: rgb(255, 55, 188);
   width: 100px;
   height: 50px;
-  color: black;
+  color: rgb(250, 250, 250);
   text-decoration: none;
 }
 .linksContainer .links .linkContacto a:hover {
