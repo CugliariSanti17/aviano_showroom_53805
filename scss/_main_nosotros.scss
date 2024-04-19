@@ -17,7 +17,11 @@
             .localImg{
                 width: map-get($tamañopx, t-300px );
                 height: map-get($tamañopx, t-300px );
-                object-fit: $object-cover;
+                img{
+                    width: $t-100por;
+                    height: $t-100por;
+                    object-fit: $object-cover;
+                }
             }
         }
     }
