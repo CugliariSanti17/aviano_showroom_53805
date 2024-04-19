@@ -37,6 +37,19 @@
                 font-size: $fs-1;
             }
         }
+        .containerLocalimg{
+            height: $t-100por;
+            width: $t-100por;
+            .localImg{
+                width: map-get($tamañopx, t-300px );
+                height: map-get($tamañopx, t-300px );
+                img{
+                    width: $t-100por;
+                    height: $t-100por;
+                    object-fit: $object-cover;
+                }
+            }
+        }
     }
 }
 .ubiContainer{
