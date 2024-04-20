@@ -92,21 +92,31 @@
 .linksContainer{
     .links{
         .linkCatalogo{
-            background:linear-gradient(to right,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.361)), url("../assets/img/fondo1_links_index.jpeg");
             @include linksIndex (map-get($tamañopx, t-350px ),map-get($tamañopx, t-700px ));
             margin: $t-borde-7px;
-
+            background:linear-gradient(to right,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.361)), url("../assets/img/fondo1_links_index.jpeg");
+            background-size: cover;
             color: $color-blanco;
             a{
                 @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-blanco,$type-none,$color-hover-secundario,$transition-principal);
             }
         }
         .linkContacto{
-            background:linear-gradient(to right,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.361)), url("../assets/img/fondo2_links_index.jpeg");
-            color: $color-blanco;
             @include linksIndex (map-get($tamañopx, t-350px ),map-get($tamañopx, t-700px));
+            background:linear-gradient(to right,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.361)), url("../assets/img/fondo2_links_index.jpeg");
+            background-size: cover;
+            color: $color-blanco;
             a{
                 @include estiloBoton($t-borde-3px $tipo-borde $color-borde,$color-primario,map-get($tamañopx, t-100px),map-get($tamañopx, t-50px ),$color-blanco,$type-none,$color-hover-secundario,$transition-principal);
+            }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .linksContainer{
+        .links{
+            .linkContacto{
+                background-position: center;
             }
         }
     }

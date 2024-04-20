@@ -121,10 +121,11 @@ header .nav-link:hover i {
   }
 }
 .linksContainer .links .linkCatalogo {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.361)), url("../assets/img/fondo1_links_index.jpeg");
   height: 350px;
   width: 700px;
   margin: 7px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.361)), url("../assets/img/fondo1_links_index.jpeg");
+  background-size: cover;
   color: rgb(250, 250, 250);
 }
 .linksContainer .links .linkCatalogo a {
@@ -140,10 +141,11 @@ header .nav-link:hover i {
   transition: all 1s ease-out;
 }
 .linksContainer .links .linkContacto {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.361)), url("../assets/img/fondo2_links_index.jpeg");
-  color: rgb(250, 250, 250);
   height: 350px;
   width: 700px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.361)), url("../assets/img/fondo2_links_index.jpeg");
+  background-size: cover;
+  color: rgb(250, 250, 250);
 }
 .linksContainer .links .linkContacto a {
   border: 3px solid pink;
@@ -158,6 +160,11 @@ header .nav-link:hover i {
   transition: all 1s ease-out;
 }
 
+@media screen and (max-width: 768px) {
+  .linksContainer .links .linkContacto {
+    background-position: center;
+  }
+}
 .recomendacionContainer .recomendacionTitle h3 {
   color: rgb(255, 71, 194);
 }
